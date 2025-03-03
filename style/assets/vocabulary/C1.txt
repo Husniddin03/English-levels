@@ -1,0 +1,1297 @@
+abolish # bekor qilish
+abortion # abort
+absence # yo'qligi
+absent # yo'q
+absurd # absurd
+abuse # suiiste'mol qilish
+academy # akademiyasi
+accelerate # tezlashtirmoq
+acceptance # qabul qilish
+accessible # foydalanish mumkin
+accomplishment # muvaffaqiyat
+accordingly # mos ravishda
+accountability # javobgarlik
+accountable # javobgar
+accumulate # to'plash
+accumulation # to'planishi
+accusation # ayblov
+accused # ayblanuvchi
+acid # kislota
+acquisition # sotib olish
+activation # faollashtirish
+activist # faol
+acute # o'tkir
+adaptation # moslashish
+adhere # rioya qilish
+adjacent # qo'shni
+adjustment # sozlash
+administer # boshqarmoq
+administrative # ma'muriy
+administrator # administrator
+admission # qabul qilish
+adolescent # o'smir
+adoption # asrab olish
+adverse # salbiy
+advocate # himoyachi
+aesthetic # estetik
+affection # mehr
+aftermath # keyin
+aggression # tajovuz
+agricultural # qishloq xo'jaligi
+aide # yordamchi
+alert # ogohlantirish
+align # tekislash
+alignment # tekislash
+alike # o'xshash
+allegation # da'vo
+allege # da'vo qilish
+allegedly # go'yo
+alliance # ittifoq
+allocate # ajratish
+allocation # ajratish
+allowance # nafaqa
+ally # ittifoqdosh
+aluminum # alyuminiy
+amateur # havaskor
+ambassador # elchi
+amend # tuzatish
+amendment # tuzatish
+amid # orasida
+analogy # analogiya
+anchor # langar
+angel # farishta
+anonymous # anonim
+apparatus # apparat
+apparel # kiyim
+appealing # jozibali
+appetite # ishtaha
+applaud # olqishlar
+applicable # amal qiladi
+appoint # tayinlash
+appreciation # qadrlash
+arbitrary # o'zboshimchalik bilan
+architectural # me'moriy
+archive # arxiv
+arena # arena
+arm (v) # qo'l (v)
+array # massiv
+articulate # ifodalash
+ash # kul
+aspiration # intilish
+aspire # intilmoq
+assassination # suiqasd
+assault # hujum
+assemble # yig'ish
+assembly # yig'ilish
+assert # da'vo qilish
+assertion # da'vo
+assurance # kafolat
+asylum # boshpana
+atrocity # vahshiylik
+attain # erishish
+attendance # qatnashish
+attribute # atribut
+auction # auktsion
+audit # audit
+authentic # haqiqiy
+authorize # ruxsat berish
+auto # avto
+autonomy # avtonomiya
+autumn # kuz
+availability # mavjudligi
+await # kuting
+backdrop # fon
+backing # qo'llab-quvvatlash
+backup # zaxira
+bail # garov
+ballot # byulleten
+bankruptcy # bankrotlik
+banner # banner
+bare # yalang'och
+barrel # bochka
+bass # bas
+battlefield # jang maydoni
+bay # bay
+beam # nur
+beast # hayvon
+behalf # nomidan
+behavioral # xulq-atvor
+beloved # sevgilim
+bench # skameyka
+benchmark # benchmark
+beneath # ostida
+beneficiary # benefitsiar
+betray # xiyonat qilish
+beverage # ichimlik
+bind # bog'lamoq
+biography # biografiyasi
+bishop # episkop
+bizarre # g'alati
+blade # pichoq
+blast # portlash
+bleed # qon ketish
+blend # aralashtirmoq
+bless # baraka ber
+blessing # baraka
+boast # maqtanmoq
+bonus # bonus
+booking # bron qilish
+boom # bum
+bounce # sakrash
+boundary # chegara
+bow # ta'zim
+breach # buzish
+breakdown # sindirish
+breakthrough # yutuq
+breed # nasl
+broadband # keng polosali
+browser # brauzer
+brutal # shafqatsiz
+buddy # do'stim
+buffer # bufer
+bulk # ommaviy
+burden # yuk
+bureaucracy # byurokratiya
+burial # dafn qilish
+burst # portlash
+cabinet # kabinet
+calculation # hisoblash
+canvas # tuval
+capability # qobiliyat
+capitalism # kapitalizm
+capitalist # kapitalist
+cargo # yuk
+carriage # arava
+carve # o'yib
+casino # kazino
+casualty # qurbon
+catalog # katalog
+cater # qondirish
+cattle # qoramol
+caution # ehtiyot
+cautious # ehtiyotkor
+cease # to'xtatish
+cemetery # qabriston
+chamber # kamera
+chaos # tartibsizlik
+characterise # xarakterlash
+charm # joziba
+charter # nizom
+choir # xor
+chronic # surunkali
+chunk # bo'lak
+circulate # aylanish
+circulation # aylanish
+citizenship # fuqarolik
+civic # fuqarolik
+civilian # fuqarolik
+clarity # aniqlik
+clash # to'qnashuv
+classification # tasnifi
+cling # yopishmoq
+clinical # klinik
+closure # yopilish
+cluster # klaster
+coalition # koalitsiya
+coastal # qirg'oq
+cocktail # kokteyl
+cognitive # kognitiv
+coincide # mos keladi
+collaborate # hamkorlik qilish
+collaboration # hamkorlik
+collective # kollektiv
+collision # to'qnashuv
+colonial # mustamlakachi
+columnist # sharhlovchi
+combat # jang
+commence # boshlash
+commentary # sharh
+commentator # sharhlovchi
+commerce # savdo
+commissioner # komissar
+commodity # tovar
+communist # kommunist
+companion # hamroh
+comparable # solishtirish mumkin
+compassion # hamdardlik
+compel # majburlash
+compelling # majburlovchi
+compensate # kompensatsiya qilish
+compensation # kompensatsiya
+competence # kompetentsiya
+competent # vakolatli
+compile # kompilyatsiya qilish
+complement # to‘ldiruvchi
+complexity # murakkablik
+compliance # muvofiqlik
+complication # murakkablik
+comply # rioya qilish
+composition # tarkibi
+compromise # murosaga kelish
+compute # hisoblash
+conceal # yashirmoq
+concede # tan olish
+conceive # tasavvur qilish
+conception # kontseptsiya
+concession # imtiyoz
+condemn # qoralamoq
+confer # konferentsiya
+confession # tan olish
+configuration # konfiguratsiya
+confine # chegaralash
+confirmation # tasdiqlash
+confront # duch kelmoq
+confrontation # qarama-qarshilik
+congratulate # tabriklayman
+congregation # jamoat
+congressional # kongressga tegishli
+conquer # zabt etmoq
+conscience # vijdon
+consciousness # ong
+consecutive # ketma-ket
+consensus # konsensus
+consent # rozilik
+conserve # saqlash
+consistency # mustahkamlik
+consolidate # birlashtirish
+constitute # tashkil qiladi
+constitution # konstitutsiya
+constitutional # konstitutsiyaviy
+constraint # cheklash
+consultation # maslahatlashuv
+contemplate # tafakkur qilmoq
+contempt # nafrat
+contend # kurashmoq
+contender # da'vogar
+content # mazmuni
+contention # tortishuv
+continually # doimiy ravishda
+contractor # pudratchi
+contradiction # qarama-qarshilik
+contrary # aksincha
+contributor # hissa qo'shuvchi
+conversion # konvertatsiya
+convict # mahkum
+conviction # hukm
+cooperate # hamkorlik qilish
+cooperative # kooperativ
+coordinate # muvofiqlashtirish
+coordination # muvofiqlashtirish
+coordinator # koordinatori
+copper # mis
+copyright # mualliflik huquqi
+correction # tuzatish
+correlate # o'zaro bog'lash
+correlation # korrelyatsiya
+correspond # mos keladi
+correspondence # yozishmalar
+correspondent # muxbir
+corresponding # mos keladigan
+corrupt # buzuq
+corruption # korruptsiya
+costly # qimmat
+councilor # maslahatchi
+counseling # maslahat berish
+counselor # maslahatchi
+counter (argue) # qarshi (bahslashish)
+counterpart # hamkasbi
+countless # son-sanoqsiz
+coup # to'ntarish
+courtesy # xushmuomalalik
+craft # hunarmandchilik
+crawl # emaklash
+creator # yaratuvchi
+credibility # ishonchlilik
+credible # ishonchli
+creep # o'rmalash
+critique # tanqid qilish
+crown # toj
+crude # xom
+crush # maydalash
+crystal # kristall
+cult # kult
+cultivate # yetishtirish
+curiosity # qiziquvchanlik
+custody # vasiylik
+cutting # kesish
+cynical # beadab
+dam # to'g'on
+damaging # zarar etkazuvchi
+dawn # tong
+debris # qoldiqlar
+debut # debyut
+decision-making # Qaror qabul qilish
+decisive # hal qiluvchi
+declaration # deklaratsiya
+dedicated # bag'ishlangan
+dedication # bag'ishlanish
+deed # dalolatnoma
+deem # deb hisoblamoq
+default # standart
+defect # nuqson
+defensive # mudofaa
+deficiency # etishmovchilik
+deficit # kamomad
+defy # qarshilik ko'rsatish
+delegate # delegat
+delegation # delegatsiya
+delicate # nozik
+demon # jin
+denial # rad etish
+denounce # qoralamoq
+dense # zich
+density # zichligi
+dependence # qaramlik
+depict # tasvirlash
+deploy # joylashtirish
+deployment # joylashtirish
+deprive # mahrum qilish
+deputy # o'rinbosari
+descend # tushish
+descent # tushish
+designate # tayinlash
+desirable # orzu qilingan
+desktop # ish stoli
+destructive # halokatli
+detain # ushlab turish
+detection # aniqlash
+detention # hibsga olish
+deteriorate # yomonlashadi
+devastate # vayron qilish
+devil # shayton
+devise # ishlab chiqish
+diagnose # tashxis qo'yish
+diagnosis # tashxis
+dictate	dictator # diktatorni diktator
+differentiate # farqlash
+dignity # qadr-qimmat
+dilemma # dilemma
+dimension # o'lcham
+diminish # kamaytirmoq
+dip # cho'milish
+diplomat # diplomat
+diplomatic # diplomatik
+directory # katalog
+disastrous # halokatli
+discard # tashlang
+discharge # tushirish
+disclose # oshkor qilish
+disclosure # oshkor qilish
+discourse # nutq
+discretion # ixtiyoriylik
+discrimination # diskriminatsiya
+dismissal # ishdan bo'shatish
+displace # siljitish
+disposal # utilizatsiya qilish
+dispose # tasarruf qilish
+dispute # bahs
+disrupt # buzish
+disruption # buzilish
+dissolve # eritish
+distinction # farqlash
+distinctive # o'ziga xos
+distort # buzish
+distress # qayg'u
+disturbing # bezovta qiluvchi
+divert # yo'naltirish
+divine # ilohiy
+doctrine # ta'limot
+documentation # hujjatlar
+domain # domen
+dominance # hukmronlik
+donor # donor
+dose # doza
+drain # drenaj
+drift # drift
+driving # haydash
+drown # cho'kmoq
+dual # ikkilik
+dub # dub
+dumb # ahmoq
+duo # duo
+earnings # daromadlar
+ease # yengillik
+echo # aks-sado
+ecological # ekologik
+educator # tarbiyachi
+effectiveness # samaradorlik
+efficiency # samaradorlik
+ego # ego
+elaborate # ishlab chiqish
+electoral # saylov
+elevate # ko'tarish
+eligible # munosib
+elite # elita
+embark # otmoq
+embarrassment # sharmandalik
+embassy # elchixona
+embed # joylashtirish
+embody # mujassamlashtirmoq
+emergence # paydo bo'lishi
+empirical # empirik
+empower # kuch berish
+enact # qabul qilish
+encompass # qamrab olmoq
+encouragement # rag'batlantirish
+encouraging # rag'batlantiruvchi
+endeavor # harakat qilish
+endless # cheksiz
+endorse # ma'qullash
+endorsement # tasdiqlash
+endure # chidamoq
+enforce # majburlash
+enforcement # ijro etish
+engagement # jalb qilish
+engaging # jalb qiluvchi
+enrich # boyitish
+enroll # ro'yxatdan o'tish
+ensue # kelib chiqadi
+enterprise # korxona
+enthusiast # ishqiboz
+entitle # huquq
+entity # shaxs
+epidemic # epidemiya
+equality # tenglik
+equation # tenglama
+erect # tik
+escalate # kuchaymoq
+essence # mohiyati
+establishment # tashkil etish
+eternal # abadiy
+evacuate # evakuatsiya qilish
+evoke # uyg'otmoq
+evolutionary # evolyutsion
+exaggerate # oshirib yuborish
+excellence # mukammallik
+exceptional # istisno
+excess # ortiqcha
+exclusion # istisno qilish
+exclusive # eksklyuziv
+exclusively # eksklyuziv ravishda
+execute # bajarmoq
+execution # ijro
+exert # harakat qilish
+exile # surgun
+expenditure # xarajat
+experimental # eksperimental
+expire # muddati tugaydi
+explicit # aniq
+explicitly # aniq
+exploitation # ekspluatatsiya
+explosive # portlovchi
+extremist # ekstremist
+facilitate # osonlashtirish
+faction # fraksiya
+fade # so'nish
+fairness # adolat
+fatal # halokatli
+fate # taqdir
+favorable # qulay
+feat # feat
+felony # jinoyat
+feminist # feminist
+fiber # tola
+fierce # shiddatli
+filmmaker # kino ijodkori
+filter # filtr
+fine # yaxshi
+firearm # o'qotar qurol
+fiscal # fiskal
+fit # mos
+flaw # kamchilik
+flawed # nuqsonli
+flee # qochmoq
+fleet # flot
+flesh # go'sht
+flexibility # moslashuvchanlik
+flourish # gullab-yashnamoq
+fluid # suyuqlik
+footage # kadrlar
+foreigner # chet ellik
+forge # soxta
+formula # formula
+formulate # shakllantirish
+forth # oldinga
+forthcoming # yaqinlashib kelayotgan
+foster # tarbiyalovchi
+fragile # mo'rt
+franchise # franchayzing
+frankly # ochiqchasiga
+freshman # birinchi kurs talabasi
+frustrated # hafsalasi pir bo'lgan
+frustrating # asabiylashtiradigan
+frustration # umidsizlik
+functional # funktsional
+fundraising # mablag' yig'ish
+funeral # dafn marosimi
+gambling # qimor o'yinlari
+gathering # yig'ilish
+gaze # qarash
+gear # tishli
+generic # umumiy
+genocide # genotsid
+gig # konsert
+glance # qarash
+glimpse # ko'rish
+glorious # ulug'vor
+glory # shon-sharaf
+governance # boshqaruv
+grace # inoyat
+grasp # ushlash
+grave (cemetery) # qabr (qabriston)
+grave (serious) # qabr (jiddiy)
+gravity # tortishish kuchi
+grid # panjara
+grief # qayg'u
+grin # jilmayish
+grind # maydalash
+grip # ushlash
+gross # yalpi
+guerrilla # partizan
+guidance # rahbarlik
+guilt # aybdorlik
+gut # ichak
+hail # do'l
+halfway # yarmi
+halt # to'xtash
+handful # hovuch
+handling # ishlov berish
+handy # qulay
+harassment # bezorilik
+hardware # apparat
+harmony # uyg'unlik
+harsh # qattiq
+harvest # o'rim-yig'im
+hatred # nafrat
+haunt # ta'qib qilish
+hazard # xavf
+heightenheritage # merosni oshirish
+hierarchy # ierarxiya
+high-profile # yuqori darajadagi
+hint # ishora
+homeland # vatan
+hopeful # umidvor
+horizon # gorizont
+horn # shox
+hostage # garovga olingan
+hostile # dushman
+hostility # dushmanlik
+humanitarian # gumanitar
+humanity # insoniyat
+humble # kamtarin
+hydrogen # vodorod
+identification # identifikatsiya
+ideological # mafkuraviy
+ideology # mafkura
+idiot # ahmoq
+ignorance # jaholat
+imagery # tasvir
+immense # ulkan
+imminent # yaqin
+implementation # amalga oshirish
+imprison # qamoqqa olish
+inability # qobiliyatsizlik
+inadequate # etarli emas
+inappropriate # nomaqbul
+incarcerate # qamoqqa olish
+incarceration # qamoqqa olish
+incidence # hodisa
+inclined # moyil
+inclusion # kiritish
+incur # yuzaga keladi
+indicator # indikator
+indictment # ayblov xulosasi
+indigenous # mahalliy
+induce # qo'zg'atmoq
+indulge # zavqlanish
+inequality # tengsizlik
+infamous # mashxur
+infant # chaqaloq
+infect # yuqtirish
+inflict # ta'sir qilish
+influential # ta'sirli
+inherent # xos
+inhibit # inhibe qilish
+initiate # boshlash
+inject # in'ektsiya qilish
+injection # in'ektsiya
+injustice # adolatsizlik
+inmate # mahkum
+inquire # surishtirmoq
+insertion # kiritish
+insider # insayder
+inspect # tekshirish
+inspection # tekshirish
+inspiration # ilhom
+instinct # instinkt
+institutional # institutsional
+instruct # ko'rsatma berish
+instrumental # instrumental
+insufficient # yetarli emas
+insult # haqorat qilish
+intact # buzilmagan
+intake # qabul qilish
+integral # integral
+integrated # integratsiyalashgan
+integration # integratsiya
+integrity # yaxlitlik
+intensify # kuchaytirmoq
+intensity # intensivlik
+intensive # intensiv
+intent # niyat
+interactive # interaktiv
+interface # interfeys
+interfere # aralashish
+interference # aralashuv
+interim # vaqtinchalik
+interior # ichki
+intermediate # oraliq
+intersection # chorraha
+intervene # aralashish
+intervention # aralashuv
+intimate # samimiy
+intriguing # qiziqarli
+inventory # inventarizatsiya
+investigator # tergovchi
+invisible # ko'rinmas
+invoke # chaqirish
+involvement # ishtirok etish
+ironic # kinoyali
+ironically # kinoya bilan
+irony # kinoya
+irrelevant # ahamiyatsiz
+isolation # izolyatsiya
+judicial # sud
+jurisdiction # yurisdiktsiya
+just # shunchaki
+justification	 # asoslash
+keen # ishtiyoqli
+kidnap # o'g'irlash
+kidney # buyrak
+kingdom # qirollik
+landlord # uy egasi
+landmark # diqqatga sazovor joy
+lap # tizza
+large-scale # keng ko'lamli
+laser # lazer
+latter # ikkinchisi
+lawmaker # qonun chiqaruvchi
+lawn # maysazor
+lawsuit # da'vo
+layout # tartib
+leak # oqish
+leap # sakrash
+legacy # meros
+legendary # afsonaviy
+legislation # qonunchilik
+legislative # qonun chiqaruvchi
+legislature # qonun chiqaruvchi organ
+legitimate # qonuniy
+lengthy # uzoq
+lesbian # lezbiyen
+lesser # kamroq
+lethal # halokatli
+liable # javobgar
+liberal # liberal
+liberation # ozodlik
+liberty # erkinlik
+lifelong # umrbod
+likelihood # ehtimollik
+limb # a'zo
+linear # chiziqli
+lineup # tarkib
+linger # qolib ketmoq
+listing # ro'yxatga olish
+liter # litr
+literacy # savodxonlik
+liver # jigar
+lobby # qabulxona
+log # jurnal
+logic # mantiq
+long-standing # uzoq muddatli
+longtime # uzoq vaqt
+loom # dastgoh
+loop # halqa
+loyalty # sodiqlik
+machinery # mashinalar
+magical # sehrli
+magnetic # magnit
+magnitude # kattalik
+mainland # materik
+mainstream # asosiy oqim
+maintenance # texnik xizmat ko'rsatish
+mandate # mandat
+mandatory # majburiy
+manifest # namoyon
+manipulate # manipulyatsiya qilish
+manipulation # manipulyatsiya
+manuscript # qo'lyozma
+march # marsh
+marginal # marginal
+marine # dengiz
+marketplace # bozor
+mask # niqob
+massacre # qirg'in
+mathematical # matematik
+mature # etuk
+maximize # maksimallashtirish
+meaningful # mazmunli
+meantime # ayni paytda
+medieval # o'rta asr
+meditation # meditatsiya
+melody # ohang
+memo # eslatma
+memoir # memuar
+memorial # yodgorlik
+mentor # ustoz
+merchant # savdogar
+mercy # rahm-shafqat
+mere # oddiy
+merely # shunchaki
+merge # birlashtirish
+merger # birlashish
+merit # savob
+methodology # metodologiyasi
+midst # o'rtasida
+migration # migratsiya
+militant # jangari
+militia # militsiya
+mill # tegirmon
+minimal # minimal
+minimize # minimallashtirish
+mining # kon
+ministry # vazirlik
+minute # daqiqa
+miracle # mo''jiza
+misery # baxtsizlik
+misleading # chalg'ituvchi
+missile # raketa
+mob # olomon
+mobile # mobil
+mobility # harakatchanlik
+mobilize # safarbar qilish
+moderate # o'rtacha
+modification # modifikatsiya
+module # modul
+momentum # impuls
+monk # rohib
+monopoly # monopoliya
+morality # axloq
+motive # motiv
+municipal # munitsipal
+mutual # o'zaro
+namely # ya'ni
+nationwide # umummilliy
+naval # dengiz
+neglect # e'tiborsizlik
+neighboring # qo'shni
+nest # uyasi
+net # to'r
+newsletter # axborot byulleteni
+niche # joy
+noble # olijanob
+nod # bosh irg'adi
+nominate # nomzod qilib ko'rsatish
+nomination # nominatsiya
+nominee # nomzod
+nonetheless # shunga qaramay
+nonprofit # notijorat
+nonsense # bema'nilik
+noon # peshin
+notable # diqqatga sazovor
+notably # ayniqsa
+notify # xabar bering
+notorious # mashhur
+novel # roman
+nursery # bolalar bog'chasi
+objection # e'tiroz
+oblige # majburlash
+obsess # obsess
+obsession # obsesyon
+occasional # vaqti-vaqti bilan
+occurrence # yuzaga kelishi
+odds # imkoniyatlar
+offering # taklif
+offspring # nasl
+operational # operativ
+opt # opt
+optical # optik
+optimism # optimizm
+oral # og'zaki
+organisational # tashkiliy
+orientation # orientatsiya
+originate # kelib chiqishi
+outbreak # avj olish
+outing # sayohat
+outlet # chiqish
+outlook # dunyoqarash
+outrage # g'azab
+outsider # begona
+overlook # e'tiborsizlik
+overly # haddan tashqari
+oversee # nazorat qiladi
+overturn # ag'darish
+overwhelm # bosib olmoq
+overwhelming # haddan tashqari
+pad # pad
+parameter # parametr
+parental # ota-ona
+parliament # parlament
+partial # qisman
+partially # qisman
+passing # o'tish
+passive # passiv
+pastor # pastor
+patent # patent
+pathway # yo'l
+patrol # patrul
+patron # homiysi
+peak # cho'qqisi
+peasant # dehqon
+peculiar # o'ziga xos
+pension # pensiya
+persist # davom eting
+persistent # doimiy
+personnel # xodimlar
+petition # ariza
+philosopher # faylasuf
+philosophical # falsafiy
+pioneer # kashshof
+pipeline # quvur liniyasi
+pirate # qaroqchi
+pit # chuqur
+plea # iltimos
+plead # iltimos
+pledge # garov
+plug # vilka
+plunge # cho'kish
+pole # qutb
+poll # so'rov
+pond # hovuz
+pop # pop
+portfolio # portfel
+portray # tasvirlash
+postpone # kechiktirish
+postwar # urushdan keyingi
+practitioner # amaliyotchi
+preach # va'z qilish
+precedent # pretsedent
+precision # aniqlik
+predator # yirtqich
+predecessor # salafi
+predominantly # asosan
+pregnancy # homiladorlik
+prejudice # xurofot
+preliminary # dastlabki
+premier # premer
+premise # asos
+premium # premium
+prescribe # buyurmoq
+prescription # retsept
+presently # hozirda
+preservation # saqlash
+preside # raislik qilish
+presidency # prezidentlik
+prestigious # nufuzli
+presumably # ehtimol
+presume # taxmin qilish
+prevail # ustunlik qiladi
+prevalence # tarqalishi
+prevention # oldini olish
+prey # o'lja
+privatization # xususiylashtirish
+privilege # imtiyoz
+probe # prob
+problematic # muammoli
+proceeding # davom etmoqda
+proceeds # daromad oladi
+processing # qayta ishlash
+processor # protsessor
+proclaim # e'lon qilish
+productive # samarali
+productivity # hosildorlik
+profitable # foydali
+profound # chuqur
+projection # proyeksiya
+prominent # taniqli
+pronounced # talaffuz qilingan
+propaganda # tashviqot
+proposition # taklif
+prosecute # jinoiy javobgarlikka tortish
+prosecution # ayblov
+prosecutor # prokuror
+prospective # istiqbolli
+prosperity # farovonlik
+protective # himoya qiluvchi
+protocol # protokol
+province # viloyat
+provincial # viloyat
+provision # ta'minlash
+provoke # qo'zg'atmoq
+psychiatric # psixiatrik
+pulse # puls
+pump # nasos
+punch # musht
+query # so'rov
+quest # izlanish
+quota # kvota
+radar # radar
+radical # radikal
+rage # g'azab
+raid # reyd
+rally # miting
+ranking # reyting
+rape # zo'rlash
+ratio # nisbat
+rational # oqilona
+ray # nur
+readily # osonlik bilan
+realization # amalga oshirish
+realm # shohligi
+rear # orqa
+reasoning # fikrlash
+reassure # ishontirmoq
+rebel # isyonchi
+rebellion # isyon
+recipient # oluvchi
+reconstruction # qayta qurish
+recount # qayta sanash
+recruitment # ishga qabul qilish
+referendum # referendum
+reflection # aks ettirish
+reform # islohot
+refuge # boshpana
+refusal # rad etish
+regain # qaytarib olish
+regardless # qat'iy nazar
+regime # rejim
+regulator # regulyator
+regulatory # tartibga soluvchi
+rehabilitation # reabilitatsiya
+reign # hukmronlik qilish
+rejection # rad etish
+relevance # dolzarbligi
+reliability # ishonchlilik
+reluctant # istaksiz
+remainder # qolgan
+remains # qoladi
+remedy # chora
+reminder # eslatma
+removal # olib tashlash
+render # ko'rsatish
+renew # yangilash
+renowned # mashhur
+rental # ijara
+replacement # almashtirish
+reportedly # xabar berishicha
+representation # vakillik
+reproduce # ko'paytirish
+reproduction # ko'payish
+republic # respublika
+resemble # o'xshaydi
+reside # yashash
+residence # turar joy
+residential # Aholi yashash joyi
+residue # qoldiq
+resignation # iste'foga chiqish
+resistance # qarshilik
+respective # mos ravishda
+respectively # mos ravishda
+restoration # qayta tiklash
+restraint # cheklash
+resume # Rezyume; qayta boshlash
+retreat # chekinish
+retrieve # olish
+revelation # vahiy
+revenge # qasos
+reverse # teskari
+revival # jonlanish
+revive # jonlantirish
+revolutionary # inqilobiy
+rhetoric # ritorika
+rifle # miltiq
+riot # g'alayon
+rip # joyi jannatda bo'lsin
+ritual # marosim
+robust # mustahkam
+rock # tosh
+rod # tayoq
+rookie # yangi o'yinchi
+roster # ro'yxat
+rotate # aylantiring
+rotation # aylanish
+ruling # hukm
+rumour # mish-mish
+sacred # muqaddas
+sacrifice # qurbon qilish
+saint # avliyo
+sake # uchun
+sanction # sanksiya
+say # ayt
+scattered # tarqoq
+scope # qamrovi
+screw # vint
+scrutiny # tekshirish
+seal # muhr
+secondly # ikkinchidan
+secular # dunyoviy
+seemingly # aftidan
+segment # segment
+seize # tutmoq
+seldom # kamdan-kam hollarda
+selective # selektiv
+sensation # sensatsiya
+sensitivity # sezgirlik
+sentiment # hissiyot
+separation # ajratish
+serial # serial
+settlement # turar-joy
+setup # sozlash; o'rnatish
+sexuality # jinsiy aloqa
+shareholder # aktsiyador
+shatter # parchalash
+shed # to'kmoq
+sheer # shaffof
+shipping # yuk tashish; yetkazib berish
+shoot # otish
+shrink # qisqarish
+shrug # yelka qisib
+sigh # xo'rsinmoq
+simulate # simulyatsiya qilish
+simulation # simulyatsiya
+simultaneously # bir vaqtning o'zida
+sin # gunoh
+situated # joylashgan
+skeptical # shubhali
+sketch # eskiz
+skip # o'tkazib yuborish
+slam # urmoq
+slap # tarsaki
+slash # slash
+slavery # qullik
+slot # uyasi
+smash # sindirish
+snap # snap
+soak # ho'llash
+soar # uchmoq
+socialist # sotsialistik
+sole # soley
+solely # faqat
+solidarity # birdamlik
+solo # yakkaxon
+sophomore # ikkinchi kurs talabasi
+sound # ovoz
+sovereignty # suverenitet
+spam # spam
+span # oraliq
+spark # uchqun
+specialized # ixtisoslashgan
+specification # spetsifikatsiya
+specimen # namuna
+spectacle # tomosha
+spectrum # spektr
+spell # afsun
+sphere # shar
+spin # aylanish
+spine # umurtqa pog'onasi
+spotlight # diqqat markazida
+spouse # turmush o'rtog'i
+spy # josus
+squad # otryad
+squeeze # siqish
+stab # pichoq
+stability # barqarorlik
+stabilize # barqarorlashtirish
+stake # qoziq
+standing # tik turgan
+stark # qattiq
+statistical # statistik
+steer # boshqarmoq
+stem # poya
+stereotype # stereotip
+stimulus # rag'batlantirish
+stir # aralashtirmoq
+storage # saqlash
+straightforward # to'g'ridan-to'g'ri
+strain # kuchlanish
+strand # ip
+strategic # strategik
+strip (narrow piece) # tasma (tor bo'lak)
+strive # intilmoq
+structural # tizimli
+stumble # qoqilish
+stun # hayratda qoldirmoq
+submission # topshirish
+subscriber # obunachi
+subscription # obuna
+subsidy # subsidiya
+substantial # muhim
+substantially # sezilarli darajada
+substitute # almashtirmoq
+substitution # almashtirish
+subtle # nozik
+suburban # shahar atrofi
+succession # voris
+successive # ketma-ket
+successor # vorisi
+suck # emish
+sue # sudga berish
+suicide # o'z joniga qasd qilish
+suite # komplekt
+summit # sammit
+superb # ajoyib
+superintendent # nazoratchi
+superior # ustun
+supervise # nazorat qilish
+supervision # nazorat qilish
+supervisor # nazoratchi
+supplement # qo'shimcha
+supportive # qo'llab-quvvatlovchi
+supposedly # go'yoki
+suppress # bostirish
+supreme # oliy
+surge # to'lqin
+surgical # jarrohlik
+surplus # ortiqcha
+surrender # taslim bo'lish
+surveillance # kuzatuv
+suspension # to'xtatib turish
+suspicion # shubha
+suspicious # shubhali
+sustain # ushlab turish
+swing # belanchak
+sword # qilich
+symbolic # ramziy
+syndrome # sindromi
+synthesis # sintez
+systematic # tizimli
+tackle # hal qilish
+tactic # taktika
+tactical # taktik
+taxpayer # soliq to'lovchi
+tempt # vasvasaga solmoq
+tenant # ijarachi
+tender # tender
+tenure # xizmat muddati
+terminate # tugatish
+terrain # er
+terrific # ajoyib
+testify # guvohlik berish
+testimony # guvohlik
+texture # tekstura
+thankfully # rahmat
+theatrical # teatrlashtirilgan
+theology # ilohiyot
+theoretical # nazariy
+thereafter # keyin
+thereby # shu bilan
+thoughtful # o'ychan
+thread # ip
+threshold # chegara
+thrilled # hayajonlandi
+thrive # gullab-yashnamoq
+tide # to'lqin
+tighten # torting
+timber # yog'och
+timely # o'z vaqtida
+tobacco # tamaki
+tolerance # bag'rikenglik
+tolerate # chidash
+toll # Yo'l uchun haq
+top # yuqori
+torture # qiynoqlar
+toss # tashlamoq
+total # jami
+toxic # zaharli
+trademark # savdo belgisi
+trail # iz
+trailer # treyler
+transaction # tranzaksiya
+transcript # transkript
+transformation # transformatsiya
+transit # tranzit
+transmission # yuqish
+transparency # shaffoflik
+transparent # shaffof
+trauma # travma
+treaty # shartnoma
+tremendous # ulkan
+tribal # qabilaviy
+tribute # hurmat
+trio # trio
+triumph # g'alaba
+trophy # kubok
+troubled # bezovta
+trustee # ishonchli vakil
+tuition # o'qish to'lovi
+tumor # shish
+turnout # qayrilib olish
+turnover # aylanmasi
+twist # burish
+unconstitutional # konstitutsiyaga zid
+undergraduate # bakalavriat
+underlying # asosida
+undermine # buzish
+undoubtedly # shubhasiz
+unify # birlashtirish
+unprecedented # misli ko'rilmagan
+unveil # ochish
+upcoming # yaqinlashib kelayotgan
+upgrade # yangilash
+uphold # qo'llab-quvvatlash
+utility # yordamchi dastur
+utilize # foydalanish
+utterly # butunlay
+vacuum # vakuum
+vague # noaniq
+validity # haqiqiyligi
+vanish # g'oyib bo'lish
+variable # o'zgaruvchan
+varied # xilma-xil
+vein # tomir
+venture # tashabbus
+verbal # og'zaki
+verdict # hukm
+verify # tekshirish
+verse # oyat
+versus # ga qarshi
+vessel # kema
+veteran # faxriy
+viable # yashovchan
+vibrant # jonli
+vice # vitse
+vicious # shafqatsiz
+violate # buzish
+violation # buzilishi
+virtue # fazilat
+vocal # vokal
+vow # qasam
+vulnerability # zaiflik
+vulnerable # zaif
+ward # palata
+warehouse # ombor
+warfare # urush
+warrant # order
+warrior # jangchi
+weaken # zaiflashtirmoq
+weave # to'qish
+weed # begona o'tlar
+well # yaxshi
+well-being # farovonlik
+whatsoever # nima bo'lishidan qat'iy nazar
+whereby # shu orqali
+whip # qamchi
+wholly # butunlay
+widen # kengaytirmoq
+widow # beva ayol
+width # kengligi
+willingness # tayyorlik
+wipe # artib oling
+wit # aqlli
+withdrawal # olib tashlash
+workout # ishlab chiqish; mashqa qilish
+worship # sajda qilish
+worthwhile # arziydi
+worthy # munosib
+yell # qichqir
+yield # Yo'l bering
