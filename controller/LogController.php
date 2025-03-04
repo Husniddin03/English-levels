@@ -8,6 +8,15 @@ use vendor\session\Session;
 
 class LogController extends Controller
 {
+
+    public function getuser()
+    {
+        if(!$this->user('id')){
+            return $this->redirect('main/index');
+        }
+        return $this->view('register/user');
+    }
+
     public function signup()
     {
         if ($this->post()) {
@@ -23,14 +32,27 @@ class LogController extends Controller
                     ]
                 );
 
-                // Session::session('user_id', $user);
+                Session::add('user_id', $user);
 
-                $_SESSION['user_id'] = $user;
-
-                return $this->view('main/index');
+                return $this->redirect('main/index');
             }
         }
         return $this->view('register/register');
+    }
+
+    public function update()
+    {
+        $user = User::find(['id' => $this->user('id')]);
+        if ($user) {
+            foreach ($this->post() as $key => $value) {
+                User::validate($value, $key);
+            }
+            if (User::$validates) {
+                User::update($this->post());
+                return $this->redirect('log/getuser');
+            }
+        }
+        return $this->redirect('log/getuser');
     }
 
     public function login()
@@ -41,17 +63,16 @@ class LogController extends Controller
             $user = User::find(['email' => $email]);
             if ($user && password_verify($password, $user['password'])) {
 
-                // Session::session('user_id', $user['id']);
-                $_SESSION['user_id'] = $user['id'];
-
-                return $this->view('main/index');
+                Session::add('user_id', $user['id']);
+                return $this->redirect('main/index');
             }
         }
         return $this->view('register/register');
     }
 
-    // public function logout(){
-    //     unset($_SESSION['user_id']);
-    //     return $this->view('register/register');
-    // }
+    public function logout()
+    {
+        Session::remove('user_id');
+        return $this->view('register/register');
+    }
 }

@@ -23,6 +23,9 @@ class Roud
         if (strpos($url, '?') !== false) {
             $url = explode('?', $url)[0];
         }
-        return array_key_exists($url, self::$data) ? self::$data[$url]: die("Invalid URL");
+        if (array_key_exists($url, self::$data)){
+            return self::$data[$url];
+        }
+        include __DIR__.'/../errors/invalidURL.php';die();
     }
 }

@@ -1,7 +1,9 @@
 <?php
 
 namespace vendor\controller;
+
 session_start();
+
 use Vendor\Model\Database;
 use vendor\session\Session;
 
@@ -12,6 +14,13 @@ class Controller
         extract($data);
         include "view/{$view}.php";
     }
+
+    public function redirect($view)
+    {
+        header('Location: /' . $view);
+        exit();
+    }
+
     public function post($item = null)
     {
         if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST)) {
@@ -38,10 +47,10 @@ class Controller
 
         $query = "SELECT * FROM User WHERE id = :id";
         $stmt = $pdo->prepare($query);
-        $stmt->execute(['id' => $_SESSION['user_id']]);
+        $stmt->execute(['id' => Session::get('user_id')]);
 
         $user = $stmt->fetch(\PDO::FETCH_ASSOC);
 
-        return $user[$item] ?? 'null';
+        return $user[$item] ?? false;
     }
 }

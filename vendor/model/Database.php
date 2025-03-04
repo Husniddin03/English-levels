@@ -5,6 +5,7 @@ namespace Vendor\Model;
 use PDO;
 use PDOException;
 use vendor\model\Validator;
+use vendor\session\Session;
 
 class Database extends Validator
 {
@@ -76,5 +77,29 @@ class Database extends Validator
         $stmt->execute(['name' => $name[key($name)]]);
 
         return $stmt->fetch();
+    }
+
+    public static function update($data)
+    {
+        if (empty($data)) {
+            return false;
+        }
+
+        $pdo = self::connect();
+
+        $setClause = "";
+        foreach ($data as $key => $value) {
+            $setClause .= "$key = :$key, ";
+        }
+        $setClause = rtrim($setClause, ", ");
+
+        $sql = "UPDATE User SET $setClause WHERE id = :id";
+        $stmt = $pdo->prepare($sql);
+
+        $data['id'] = Session::get('user_id');
+
+        $stmt->execute($data);
+
+        return $stmt->rowCount();
     }
 }

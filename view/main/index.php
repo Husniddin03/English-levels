@@ -6,7 +6,7 @@ $this->view('companent/header');
     <!-- Home Page -->
     <div id="homePage" class="page active">
         <div class="page-header">
-            <h1>ENGLISH LEVELS <?=$user?></h1>
+            <h1>ENGLISH LEVELS</h1>
             <p>Click on any level to learn more</p>
         </div>
 

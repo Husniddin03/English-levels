@@ -2,7 +2,6 @@
 
 use vendor\global\Roud;
 
-
 Roud::get('/', 'MainController/index');
 Roud::get('/main/index', 'MainController/index');
 Roud::get('/main/vocabulary', 'MainController/vocabulary');
@@ -17,8 +16,11 @@ Roud::get('/main/video', 'MainController/video');
 
 
 
+Roud::get('/log/getuser', 'LogController/getuser');
 Roud::get('/log/signup', 'LogController/signup');
 Roud::get('/log/login', 'LogController/login');
+Roud::get('/log/logout', 'LogController/logout');
+Roud::get('/log/update', 'LogController/update');
 
 
 Roud::get('/comp/header', 'CompController/header');

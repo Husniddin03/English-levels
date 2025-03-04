@@ -30,7 +30,7 @@
         </div>
         <ul class="nav-list">
             <li>
-                <a href="/main/index">
+                <a href="/main/home">
                     <button class="nav-item" data-page="home">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
@@ -41,14 +41,25 @@
                 </a>
             </li>
             <li>
-                <a href="/main/global">
+                <a href="/main/materials">
+                    <button class="nav-item" data-page="materials">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                        </svg>
+                        <span>Learning Materials</span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="/main/index">
                     <button class="nav-item" data-page="global">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="10" />
                             <line x1="2" x2="22" y1="12" y2="12" />
                             <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
                         </svg>
-                        <span>Global Resources</span>
+                        <span>Dictionary</span>
                     </button>
                 </a>
             </li>
@@ -91,17 +102,7 @@
                     </button>
                 </a>
             </li>
-            <li>
-                <a href="/main/materials">
-                    <button class="nav-item" data-page="materials">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-                        </svg>
-                        <span>Learning Materials</span>
-                    </button>
-                </a>
-            </li>
+
             <li>
                 <a href="/main/tools">
                     <button class="nav-item" data-page="tools">
@@ -138,15 +139,37 @@
             </li>
         </ul>
         <div class="nav-footer">
-            <a href="/log/signup">
-                <button class="nav-item" data-page="signin">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
-                        <polyline points="10 17 15 12 10 7" />
-                        <line x1="15" x2="3" y1="12" y2="12" />
-                    </svg>
-                    <span>Sign In</span>
-                </button>
-            </a>
+
+            <?php if ($this->user('name')): ?>
+                <a href="/log/getuser">
+                    <button class="nav-item" data-page="signin">
+                        <img src="<?= $this->user('photo') ?>" alt="User Avatar">
+                        <span><?= $this->user('name') ?></span>
+                    </button>
+                </a>
+                <a href="/log/logout" onclick="return confirmLogout(event);">
+                    <button class="nav-item" data-page="signin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+                            <polyline points="10 17 15 12 10 7" />
+                            <line x1="15" x2="3" y1="12" y2="12" />
+                        </svg>
+                        <span>Logout</span>
+                    </button>
+                </a>
+
+            <?php else: ?>
+                <a href="/log/signup">
+                    <button class="nav-item" data-page="signin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+                            <polyline points="10 17 15 12 10 7" />
+                            <line x1="15" x2="3" y1="12" y2="12" />
+                        </svg>
+                        <span>Sign In</span>
+                    </button>
+                </a>
+            <?php endif; ?>
+
         </div>
     </nav>

@@ -1,3 +1,24 @@
+function editProfile(filename){
+  let oldfilename = "old" + filename;
+  let iconfilename = "icon" + filename;
+
+  document.getElementById(oldfilename).style.display = "none";
+  document.getElementById(iconfilename).style.display = "none";
+  document.getElementById(filename).style.display = "flex";
+}
+
+function cancelProfile(filename){
+  let oldfilename = "old" + filename;
+  let iconfilename = "icon" + filename;
+  let newFilename = filename.replace("old", ""); 
+
+  document.getElementById(oldfilename).style.display = "flex";
+  document.getElementById(iconfilename).style.display = "flex";
+  document.getElementById(newFilename).style.display = "none";
+}
+
+
+
 // DOM Elements
 const menuToggle = document.getElementById('menuToggle');
 const sideNav = document.getElementById('sideNav');
@@ -45,3 +66,82 @@ levelCards.forEach(card => {
 });
 
 // Form toggle functionality is handled by CSS :checked selector
+
+
+function confirmLogout(event) {
+  if (!confirm('Are you sure you want to log out?')) {
+      event.preventDefault();
+  }
+}
+
+
+var profileStates = {
+  editProfile: false,
+  changePassword: false,
+  showDetails:true
+}
+
+$('.tabs').on('click', function(e) {
+  e.stopPropagation();
+  tabHandler(e.currentTarget);
+})
+
+$('.cancel').on('click', function(e) {
+  e.stopPropagation();
+  e.preventDefault();
+  pageReset();
+});
+
+function tabHandler(tab){
+  var editProfileTab = $(tab).hasClass('edit-profile');
+  var changePassTab = $(tab).hasClass('change-password');
+  
+  switch (true) {
+
+    // if Tab is Edit Profile and Edit Profile is not showing
+    case (editProfileTab && !isEditProfileShowing()):
+      // Check to see if Profile Details are showing. Hide if they are.
+      if (isDetailsShowing()) {
+        profileStates.showDetails = false;
+        $('.student-details').removeClass('expanded');
+      }
+
+      // Remove .expanded from all content wrappers
+      $('.tab-content').removeClass('expanded');
+
+      // Add .expanded to edit profile content wrapper
+      $('.edit-profile-form-wrap').addClass('expanded');
+      
+      profileStates.editProfile = true;
+      profileStates.changePassword = false;
+      break;
+
+    // if Tab is Change Password and Detail is Showing
+    case (changePassTab && !isChangePasswordShowing()):
+      // Check to see if Profile Details are showing. Hide if they are.
+      if (isDetailsShowing()) {
+        profileStates.showDetails = false;
+        $('.student-details').removeClass('expanded');
+      }
+
+      // Remove .expanded from all content wrappers
+      $('.tab-content').removeClass('expanded');
+
+      // Add .expanded to edit profile content wrapper
+      $('.change-password-form-wrap').addClass('expanded');
+      profileStates.editProfile = false;
+      profileStates.changePassword = true;
+      break;
+
+    // if Tab is Edit Profile and Edit Profile is Showing
+    case (editProfileTab && isEditProfileShowing()):
+      pageReset();
+      break;
+    // if Tab is Change Password and Change Password is Shwoing
+    case (changePassTab && isChangePasswordShowing()):
+      pageReset();
+      break;
+  }
+}
+
+

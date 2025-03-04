@@ -13,15 +13,22 @@ class MainController extends Controller
     {
         return $this->view('main/index');
     }
-    
+
     public function vocabulary()
     {
+        if (empty($this->user('id'))) {
+            return $this->redirect('log/login');
+        }
+
         $level = $this->get('level');
         $count = Database::count($level);
-        if($count == 0){
+
+        if ($count == 0) {
             return $this->view('main/vocabulary', ["data" => null, 'level' => $level, 'count' => 0]);
         }
+
         $data = Database::data($level);
+
         return $this->view('main/vocabulary', ["data" => $data, 'level' => $level, 'count' => $count]);
     }
 
@@ -128,6 +135,7 @@ class MainController extends Controller
             name VARCHAR(255) NOT NULL,
             email VARCHAR(255) UNIQUE NOT NULL,
             password VARCHAR(255) NOT NULL,
+            photo VARCHAR(255) default "https://cdn-icons-png.flaticon.com/512/1053/1053244.png",
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );';
         $pdo->exec($sql);
