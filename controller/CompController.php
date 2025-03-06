@@ -14,4 +14,9 @@ class CompController extends Controller
     {
         return $this->view('companent/header');
     }
+
+    public function footernaw()
+    {
+        return $this->view('companent/footernaw');
+    }
 }

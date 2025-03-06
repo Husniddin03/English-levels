@@ -16,6 +16,9 @@ $this->view('companent/header');
                         <input name="name" type="text" placeholder="Full name" required>
                     </div>
                     <div class="form-group">
+                        <input name="username" type="text" placeholder="Username" required>
+                    </div>
+                    <div class="form-group">
                         <input name="email" type="email" placeholder="Email" required>
                     </div>
                     <div class="form-group">

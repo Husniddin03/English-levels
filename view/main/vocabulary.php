@@ -32,6 +32,10 @@ $this->view('companent/header');
             </div>
         </div>
     </div>
+
+    <?php
+    $this->view('companent/footernaw');
+    ?>
 </main>
 
 <script>
@@ -155,7 +159,6 @@ $this->view('companent/header');
         displayWords();
     });
 </script>
-
 
 <?php
 $this->view('companent/footer');

@@ -42,30 +42,39 @@ class Database extends Validator
         $stmt->execute();
         return $stmt->fetchAll();
     }
-    public static function count($table)
-{
-    try {
+    public static function datalimit($table, $start, $limit)
+    {
         $conn = self::connect();
-
-        // Jadval mavjudligini tekshirish
-        $checkStmt = $conn->prepare("SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = DATABASE() AND table_name = ?");
-        $checkStmt->execute([$table]);
-        $tableExists = $checkStmt->fetchColumn();
-
-        if (!$tableExists) {
-            return 0; // Agar jadval mavjud bo'lmasa, 0 qaytaradi
-        }
-
-        // Agar jadval mavjud bo'lsa, uning yozuvlarini hisoblash
-        $stmt = $conn->prepare("SELECT COUNT(*) as total FROM {$table}");
+        $stmt = $conn->prepare("SELECT * FROM {$table} LIMIT :start, :limit");
+        $stmt->bindParam(':start', $start, PDO::PARAM_INT);
+        $stmt->bindParam(':limit', $limit, PDO::PARAM_INT);
         $stmt->execute();
-        $row = $stmt->fetch();
-        
-        return $row['total'] ?? 0;
-    } catch (PDOException $e) {
-        return 0; // Agar xatolik bo'lsa ham, 0 qaytaradi
+        return $stmt->fetchAll();
     }
-}
+    public static function count($table)
+    {
+        try {
+            $conn = self::connect();
+
+            // Jadval mavjudligini tekshirish
+            $checkStmt = $conn->prepare("SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = DATABASE() AND table_name = ?");
+            $checkStmt->execute([$table]);
+            $tableExists = $checkStmt->fetchColumn();
+
+            if (!$tableExists) {
+                return 0; // Agar jadval mavjud bo'lmasa, 0 qaytaradi
+            }
+
+            // Agar jadval mavjud bo'lsa, uning yozuvlarini hisoblash
+            $stmt = $conn->prepare("SELECT COUNT(*) as total FROM {$table}");
+            $stmt->execute();
+            $row = $stmt->fetch();
+
+            return $row['total'] ?? 0;
+        } catch (PDOException $e) {
+            return 0; // Agar xatolik bo'lsa ham, 0 qaytaradi
+        }
+    }
 
     public static function findOne($name, $tableName)
     {

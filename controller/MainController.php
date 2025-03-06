@@ -9,6 +9,12 @@ use Vendor\Model\Database;
 
 class MainController extends Controller
 {
+
+    public function home()
+    {
+        return $this->view('main/home');
+    }
+
     public function index()
     {
         return $this->view('main/index');
@@ -32,14 +38,27 @@ class MainController extends Controller
         return $this->view('main/vocabulary', ["data" => $data, 'level' => $level, 'count' => $count]);
     }
 
-    public function video()
+    public function quiz()
     {
-        return $this->view('main/video');
+        if($this->post()){
+            if($this->post('level') == 'ALL'){
+                $level = ['A1', 'A2', 'B1', 'B2', 'C1'];
+                $data = [];
+                foreach ($level as $item) {
+                    $data = array_merge($data, Database::data($item));
+                }
+                shuffle($data);
+                return $this->view('main/quiz', ["data" => array_slice($data, 0, $this->post('end')), 'time' => $this->post('time')]);
+            }
+            $data = Database::datalimit($this->post('level'), $this->post('start'), $this->post('end'));
+            return $this->view('main/quiz', ["data" => $data, 'time' => $this->post('time')]);
+        }
+        return $this->redirect('main/quiztools');
     }
 
-    public function tools()
+    public function quiztools()
     {
-        return $this->view('main/tools');
+        return $this->view('main/quiztools');
     }
 
     public function photo()
@@ -133,6 +152,7 @@ class MainController extends Controller
         $sql = 'CREATE TABLE IF NOT EXISTS User (
             id INT AUTO_INCREMENT PRIMARY KEY,
             name VARCHAR(255) NOT NULL,
+            username VARCHAR(255) NOT NULL,
             email VARCHAR(255) UNIQUE NOT NULL,
             password VARCHAR(255) NOT NULL,
             photo VARCHAR(255) default "https://cdn-icons-png.flaticon.com/512/1053/1053244.png",

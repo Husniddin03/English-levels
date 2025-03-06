@@ -18,7 +18,6 @@ function cancelProfile(filename){
 }
 
 
-
 // DOM Elements
 const menuToggle = document.getElementById('menuToggle');
 const sideNav = document.getElementById('sideNav');
@@ -144,4 +143,13 @@ function tabHandler(tab){
   }
 }
 
+// popup
 
+function openPopup(level) {
+  document.getElementById('overlay').style.display = 'flex';
+  document.getElementById('level').value = level;
+}
+
+function closePopup() {
+  document.getElementById('overlay').style.display = 'none';
+}

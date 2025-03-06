@@ -31,7 +31,7 @@ class User extends Database
             return 0;
         }
 
-        $stmt = $pdo->prepare("INSERT INTO User (name, email, password) VALUES (:name, :email, :password)");
+        $stmt = $pdo->prepare("INSERT INTO User (name, username, email, password) VALUES (:name, :username, :email, :password)");
         $stmt->execute($data);
 
         return $pdo->lastInsertId();

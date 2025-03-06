@@ -2,6 +2,8 @@
 
 namespace vendor\model;
 
+use Vendor\Model\Database;
+
 class Validator
 {
     public static function email($email)
@@ -15,6 +17,13 @@ class Validator
     public static function name($name)
     {
         return strlen($name) >= 3 && preg_match('/^[a-zA-Z\s]+$/', $name);
+    }
+    public static function username($username)
+    {
+        $pdo = Database::connect();
+        $stmt = $pdo->prepare("SELECT COUNT(*) FROM User WHERE username = :username");
+        $stmt->execute(['username' => $username]);
+        return strlen($username) >= 4 && preg_match('/^[a-zA-Z0-9_]+$/', $username) && $stmt->fetchColumn() == 0;
     }
     public static function phone($phone)
     {
