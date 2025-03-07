@@ -16,9 +16,9 @@ const sampleResponses = [
     "Ajoyib! Sizga yordam berganimdan xursandman",
     "Bu haqida ko'proq ma'lumot berishingiz mumkinmi?",
     "Ha, albatta. Hoziroq ko'rib chiqaman"
-];
+];  
 
-// Initialize users list
+// // Initialize users list
 function initializeUsersList() {
     users.forEach(user => {
         const userItem = document.createElement('div');
@@ -43,6 +43,7 @@ function initializeUsersList() {
 }
 
 function selectUser(user) {
+    globalThis.userid = user.id;
     // Update header with selected user
     document.querySelector('.chat-header .avatar img').src = user.avatar;
     document.querySelector('.chat-header .user-info h2').textContent = user.name;
@@ -134,6 +135,30 @@ function sendMessage() {
         setTimeout(() => {
             addMessage(getRandomResponse(), false);
         }, 2000);
+
+        // const message = messageInput.value.trim();
+        console.log('Sent message:', message);
+        fetch('/chat/send', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: new URLSearchParams({
+                sender_id: currentUserId,  // Hozirgi foydalanuvchi ID
+                receiver_id: userid, // Qabul qiluvchi foydalanuvchi ID
+                message_text: message
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === "success") {
+                addMessage(message, true);
+                messageInput.value = '';
+            } else {
+                alert(data.message);
+            }
+        })
+        .catch(error => console.error("Xatolik:", error));
     }
 }
 

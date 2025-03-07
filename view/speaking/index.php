@@ -2,9 +2,9 @@
 $this->view('companent/header');
 ?>
 
-<div id="docsPage" class="page active">
+<div id="tutorialsPage" class="page active">
   <div class="placeholder-content">
-    <p>Content for docs page coming soon</p>
+    <p>Content for tutorials page coming soon</p>
   </div>
 </div>
 

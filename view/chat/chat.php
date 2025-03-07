@@ -30,11 +30,11 @@ $this->view('companent/header');
                 </div>
                 <div class="user-profile">
                     <div class="avatar">
-                        <img src="https://ui-avatars.com/api/?name=John+Doe&background=0084ff&color=fff" alt="User Avatar">
+                        <img src="<?=$this->user('photo')?>" alt="User Avatar">
                         <span class="status-dot"></span>
                     </div>
                     <div class="user-info">
-                        <h2>John Doe</h2>
+                        <h2>Draft for you</h2>
                         <span class="status">Online</span>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ $this->view('companent/header');
                 </button>
                 <div class="input-wrapper">
                     <input type="text" id="messageInput" placeholder="Xabar yozish...">
-                    <button class="emoji-btn">
+                    <button type="submit" class="emoji-btn">
                         <i class="far fa-smile"></i>
                     </button>
                 </div>
@@ -74,6 +74,8 @@ $this->view('companent/header');
 </div>
 <script>
     const users = <?php echo json_encode($data);?>;
+
+    const currentUserId = <?php echo json_encode($this->user('id'))?>;
 </script>
 <?php
 $this->view('companent/footer');

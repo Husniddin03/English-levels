@@ -1,3 +1,40 @@
+document.addEventListener('DOMContentLoaded', () => {
+  // Theme toggle
+  const themeToggle = document.getElementById('themeToggle');
+
+  themeToggle.addEventListener('change', () => {
+      document.body.classList.toggle('dark');
+  });
+
+  // Password visibility toggle
+  const passwordInput = document.querySelector('.password-input input');
+  const togglePassword = document.querySelector('.toggle-password');
+
+  togglePassword.addEventListener('click', () => {
+      const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+      passwordInput.setAttribute('type', type);
+
+      // Update eye icon
+      const eyeIcon = togglePassword.querySelector('svg');
+      if (type === 'password') {
+          eyeIcon.innerHTML = '<path d="M12 5c-7.333 0-12 6-12 6s4.667 6 12 6 12-6 12-6-4.667-6-12-6Z"/><path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>';
+      } else {
+          eyeIcon.innerHTML = '<path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"/><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7.33 0 12 6 12 6a13.16 13.16 0 0 1-1.67 1.67"/><path d="M6.61 6.61A13.526 13.526 0 0 0 0 11s4.67 6 12 6c1.94 0 3.69-.38 5.27-1"/><path d="M2 2l20 20"/>';
+      }
+  });
+
+  // Save button animation
+  const saveButton = document.querySelector('.save-button');
+
+  saveButton.addEventListener('click', () => {
+      saveButton.style.backgroundColor = 'var(--primary-hover)';
+      setTimeout(() => {
+          saveButton.style.backgroundColor = 'var(--primary-color)';
+      }, 200);
+  });
+});
+
+
 function editProfile(filename){
   let oldfilename = "old" + filename;
   let iconfilename = "icon" + filename;
@@ -153,3 +190,5 @@ function openPopup(level) {
 function closePopup() {
   document.getElementById('overlay').style.display = 'none';
 }
+
+

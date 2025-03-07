@@ -8,11 +8,10 @@ $this->view('companent/header');
       <div class="logohome">HG</div>
       <nav>
         <ul>
-          <li><a href="#">Listining</a></li>
-          <li><a href="#">Reading</a></li>
-          <li><a href="#">Writing</a></li>
-          <li><a href="#">Speaking</a></li>
-          <li><a href="#">chat</a></li>
+          <li><a href="/listining/index">Listining</a></li>
+          <li><a href="/reading/index">Reading</a></li>
+          <li><a href="/writing/index">Writing</a></li>
+          <li><a href="/speaking/index">Speaking</a></li>
         </ul>
       </nav>
       <a href="#contact-us" class="call-back-btn-home">CALL CENTER</a>

@@ -61,34 +61,9 @@ class MainController extends Controller
         return $this->view('main/quiztools');
     }
 
-    public function photo()
+    public function tools()
     {
-        return $this->view('main/photo');
-    }
-
-    public function materials()
-    {
-        return $this->view('main/materials');
-    }
-
-    public function documentation()
-    {
-        return $this->view('main/documentation');
-    }
-
-    public function global()
-    {
-        return $this->view('main/global');
-    }
-
-    public function map()
-    {
-        return $this->view('main/map');
-    }
-
-    public function discussion()
-    {
-        return $this->view('main/discussion');
+        return $this->view('main/tools');
     }
 
 
