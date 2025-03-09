@@ -13,6 +13,10 @@ class ChatController extends Controller
     public function chat()
     {
 
+        if(!$this->user('id')){
+            return $this->redirect('log/signup');
+        }
+
         $data = [
             [
                 "id" => 1,

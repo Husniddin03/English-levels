@@ -153,10 +153,6 @@ $this->view('companent/header');
             </div>
         </div>
     </div>
-
-    <?php
-    $this->view('companent/footernaw');
-    ?>
 </main>
 
 <?php

@@ -30,7 +30,7 @@ $this->view('companent/header');
                 </div>
                 <div class="user-profile">
                     <div class="avatar">
-                        <img src="<?=$this->user('photo')?>" alt="User Avatar">
+                        <img src="<?= $this->user('photo') ?>" alt="User Avatar">
                         <span class="status-dot"></span>
                     </div>
                     <div class="user-info">
@@ -73,9 +73,9 @@ $this->view('companent/header');
     </div>
 </div>
 <script>
-    const users = <?php echo json_encode($data);?>;
+    const users = <?php echo json_encode($data); ?>;
 
-    const currentUserId = <?php echo json_encode($this->user('id'))?>;
+    const currentUserId = <?php echo json_encode($this->user('id')) ?>;
 </script>
 <?php
 $this->view('companent/footer');

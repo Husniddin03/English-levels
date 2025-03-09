@@ -133,7 +133,7 @@ function sendMessage() {
         messageInput.value = '';
         
         setTimeout(() => {
-            addMessage(getRandomResponse(), false);
+            addMessage(sampleResponses[sampleResponses.length-1], false);
         }, 2000);
 
         // const message = messageInput.value.trim();
