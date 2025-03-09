@@ -29,6 +29,9 @@ Roud::get('/reading/index', 'ReadingController/index');
 Roud::get('/speaking/index', 'SpeakingController/index');
 Roud::get('/writing/index', 'WritingController/index');
 
+Roud::get('/grammar/index', 'GrammarController/index');
+Roud::get('/grammar/tenses', 'GrammarController/tenses');
+
 
 Roud::get('/main/createTable', 'MainController/createTable');
 Roud::get('/main/createUser', 'MainController/createUser');
