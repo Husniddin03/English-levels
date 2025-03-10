@@ -191,4 +191,9 @@ function closePopup() {
   document.getElementById('overlay').style.display = 'none';
 }
 
-
+function thems(thema) {
+  document.getElementById('present').style.display = 'none';
+  document.getElementById('past').style.display = 'none';
+  document.getElementById('future').style.display = 'none';
+  document.getElementById(thema).style.display = 'block';
+}

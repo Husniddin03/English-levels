@@ -15,4 +15,14 @@ class GrammarController extends Controller
     {
         return $this->view('grammar/tenses');
     }
+
+    public function modal()
+    {
+        return $this->view('grammar/modal');
+    }
+
+    public function conditional()
+    {
+        return $this->view('grammar/conditional');
+    }
 }

@@ -21,7 +21,7 @@ $this->view('companent/header');
       </div>
     </a>
 
-    <a href="#">
+    <a href="/grammar/modal">
       <div class="card green">
         <div class="card-body">
           <h3>Modal fe’llar (Modal Verbs)</h3>
@@ -38,7 +38,7 @@ $this->view('companent/header');
       </div>
     </a>
 
-    <a href="#">
+    <a href="/grammar/conditional">
       <div class="card green">
         <div class="card-body">
           <h3>Shart ergash gaplar (Conditionals)</h3>

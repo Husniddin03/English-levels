@@ -1,347 +1,776 @@
 /* writing */
-  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.writing {
+  min-height: 100vh;
+  min-height: 100svh;
+  background: #232228;
+  font-family: 'Nunito', sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  display: grid;
+  place-items: center;
+}
+
+@media (max-width: 768px) {
   .writing {
-    min-height: 100vh;
-    min-height: 100svh;
-    background: #232228;
-    font-family: "Nunito", sans-serif;
-    position: relative;
-    overflow-x: hidden;
-    display: grid;
-    place-items: center;
+    padding-right: 40px;
   }
+}
 
-  @media (max-width: 768px) {
-    .writing{
-      padding-right: 40px;
-    }
-  }
+.writing a {
+  text-decoration: none;
+  display: inline-block;
+}
 
-  .writing a {
-    text-decoration: none;
-    display: inline-block;
-  }
+.writing section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 50em;
+  margin-inline: auto;
+  gap: 3.25rem;
+  position: relative;
+  z-index: 10;
+  align-items: center;
+  padding: 5em 0;
+}
 
-  .writing section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 50em;
-    margin-inline: auto;
-    gap: 3.25rem;
-    position: relative;
-    z-index: 10;
-    align-items: center;
-    padding: 5em 0;
-  }
+.writing section .card {
+  position: relative;
+  z-index: 555;
+  max-width: 20rem;
+  min-height: 20rem;
+  width: 90%;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  text-align: center;
+  position: relative;
+  box-shadow: 1px 12px 25px #000;
+  border-radius: 2.25rem;
+}
 
-  .writing section .card {
-    position: relative;
-    z-index: 555;
-    max-width: 20rem;
-    min-height: 20rem;
-    width: 90%;
-    display: grid;
-    place-content: center;
-    place-items: center;
-    text-align: center;
-    position: relative;
-    box-shadow: 1px 12px 25px #000;
-    border-radius: 2.25rem;
-  }
+.writing section .card::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 2.25rem;
+  z-index: -1;
+  border: 0.155rem solid transparent;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
 
-  .writing section .card::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 2.25rem;
-    z-index: -1;
-    border: 0.155rem solid transparent;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out;
-    mask-composite: exclude;
-  }
+.writing section .card-body {
+  position: absolute;
+  width: 100%;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.7em 1.25em 0.5em 1.5em;
+}
 
-  .writing section .card-body {
-    position: absolute;
-    width: 100%;
-    display: block;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0.7em 1.25em 0.5em 1.5em;
-  }
+.writing section .card-body h3 {
+  color: #fff;
+  font-size: 1.375rem;
+  margin-top: 0.625em;
+  margin-bottom: 0.188em;
+  text-transform: capitalize;
+  font-weight: 600;
+}
 
-  .writing section .card-body h3 {
-    color: #fff;
-    font-size: 1.375rem;
-    margin-top: 0.625em;
-    margin-bottom: 0.188em;
-    text-transform: capitalize;
-    font-weight: 600;
-  }
+.writing section .card-body p {
+  color: #ddd;
+  font-size: 1rem;
+  letter-spacing: 0.031rem;
+}
 
-  .writing section .card-body p {
-    color: #ddd;
-    font-size: 1rem;
-    letter-spacing: 0.031rem;
-  }
+.writing section .card-body .progress {
+  margin-top: 0.938rem;
+}
 
-  .writing section .card-body .progress {
-    margin-top: 0.938rem;
-  }
+.writing section .card-body .progress .progress-bar {
+  position: relative;
+  width: 100%;
+  background: #363636;
+  height: 0.313rem;
+  display: block;
+  border-radius: 3.125rem;
+}
 
-  .writing section .card-body .progress .progress-bar {
-    position: relative;
-    width: 100%;
-    background: #363636;
-    height: 0.313rem;
-    display: block;
-    border-radius: 3.125rem;
-  }
+.writing section .card-body .progress .progress-bar:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  display: block;
+  border-radius: 3.125rem;
+}
 
-  .writing section .card-body .progress .progress-bar:after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    display: block;
-    border-radius: 3.125rem;
-  }
+.writing section .card-body .progress span:first-of-type {
+  color: #fff;
+  text-align: left;
+  font-weight: 600;
+  width: 100%;
+  display: block;
+  margin-bottom: 0.313rem;
+}
 
-  .writing section .card-body .progress span:first-of-type {
-    color: #fff;
-    text-align: left;
-    font-weight: 600;
-    width: 100%;
-    display: block;
-    margin-bottom: 0.313rem;
-  }
+.writing section .card-body .progress span {
+  margin-top: 0.313rem;
+  text-align: right;
+  display: block;
+  color: #fff;
+}
 
-  .writing section .card-body .progress span {
-    margin-top: 0.313rem;
-    text-align: right;
-    display: block;
-    color: #fff;
-  }
+.writing section .card-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-top: 0.063rem solid #292929;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7em 1.25em 0.5em 1.5em;
+  background: #151419;
+  border-bottom-left-radius: 2.25rem;
+  border-bottom-right-radius: 2.25rem;
+}
 
-  .writing section .card-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    border-top: 0.063rem solid #292929;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.7em 1.25em 0.5em 1.5em;
-    background: #151419;
-    border-bottom-left-radius: 2.25rem;
-    border-bottom-right-radius: 2.25rem;
-  }
+.writing section .card-footer .btn-add {
+  width: 1.375rem;
+  height: 1.375rem;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .writing section .card-footer .btn-add {
-    width: 1.375rem;
-    height: 1.375rem;
-    border-radius: 50%;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.writing section .card-footer .btn-countdown {
+  background: #222127;
+  color: #fff;
+  border-radius: 2em;
+  padding: 0.625rem 1.5rem;
+}
 
-  .writing section .card-footer .btn-countdown {
-    background: #222127;
-    color: #fff;
-    border-radius: 2em;
-    padding: 0.625rem 1.5rem;
-  }
+.writing section .green {
+  background: radial-gradient(
+    ellipse at right top,
+    #107667 ed 0%,
+    #151419 47%,
+    #151419 100%
+  );
+}
 
-  .writing section .green {
-    background: radial-gradient(ellipse at right top, #107667 ed 0%, #151419 47%, #151419 100%);
-  }
+.writing section .green:before {
+  background: linear-gradient(
+      45deg,
+      #232228,
+      #232228,
+      #232228,
+      #232228,
+      #01c3a8
+    )
+    border-box;
+}
 
-  .writing section .green:before {
-    background: linear-gradient(45deg, #232228, #232228, #232228, #232228, #01c3a8) border-box;
-  }
+.writing section .green .btn-add {
+  background: #01c3a8;
+}
 
-  .writing section .green .btn-add {
-    background: #01c3a8;
-  }
+.writing section .green .progress-bar:after {
+  width: 90%;
+  background: #01c3a8;
+}
 
-  .writing section .green .progress-bar:after {
-    width: 90%;
-    background: #01c3a8;
-  }
+.writing section .green .btn-countdown:hover {
+  background: #01c3a8;
+}
 
-  .writing section .green .btn-countdown:hover {
-    background: #01c3a8;
-  }
+.writing section .blue {
+  background: radial-gradient(
+    ellipse at right top,
+    #00458f 8f 0%,
+    #151419 45%,
+    #151419 100%
+  );
+}
 
-  .writing section .blue {
-    background: radial-gradient(ellipse at right top, #00458f 8f 0%, #151419 45%, #151419 100%);
-  }
+.writing section .blue:before {
+  background: linear-gradient(
+      45deg,
+      #232228,
+      #232228,
+      #232228,
+      #232228,
+      #1890ff
+    )
+    border-box;
+}
 
-  .writing section .blue:before {
-    background: linear-gradient(45deg, #232228, #232228, #232228, #232228, #1890ff) border-box;
-  }
+.writing section .blue .btn-add {
+  background: #1890ff;
+}
 
-  .writing section .blue .btn-add {
-    background: #1890ff;
-  }
+.writing section .blue .progress-bar:after {
+  width: 20%;
+  background: #1890ff;
+}
 
-  .writing section .blue .progress-bar:after {
-    width: 20%;
-    background: #1890ff;
-  }
+.writing section .blue .btn-countdown:hover {
+  background: #1890ff;
+}
 
-  .writing section .blue .btn-countdown:hover {
-    background: #1890ff;
-  }
+.writing section .orange {
+  background: radial-gradient(
+    ellipse at right top,
+    #ffb741 94 0%,
+    #151419 47%,
+    #151419 100%
+  );
+}
 
-  .writing section .orange {
-    background: radial-gradient(ellipse at right top, #ffb741 94 0%, #151419 47%, #151419 100%);
-  }
+.writing section .orange:before {
+  background: linear-gradient(
+      45deg,
+      #232228,
+      #232228,
+      #232228,
+      #232228,
+      #ffb741
+    )
+    border-box;
+}
 
-  .writing section .orange:before {
-    background: linear-gradient(45deg, #232228, #232228, #232228, #232228, #ffb741) border-box;
-  }
+.writing section .orange .btn-add {
+  background: #ffb741;
+}
 
-  .writing section .orange .btn-add {
-    background: #ffb741;
-  }
+.writing section .orange .progress-bar:after {
+  width: 30%;
+  background: #ffb741;
+}
 
-  .writing section .orange .progress-bar:after {
-    width: 30%;
-    background: #ffb741;
-  }
+.writing section .orange .btn-countdown:hover {
+  background: #ffb741;
+}
 
-  .writing section .orange .btn-countdown:hover {
-    background: #ffb741;
-  }
+.writing section .red {
+  background: radial-gradient(
+    ellipse at right top,
+    #a63d2a 82 0%,
+    #151419 47%,
+    #151419 100%
+  );
+}
 
-  .writing section .red {
-    background: radial-gradient(ellipse at right top, #a63d2a 82 0%, #151419 47%, #151419 100%);
-  }
+.writing section .red:before {
+  background: linear-gradient(
+      45deg,
+      #232228,
+      #232228,
+      #232228,
+      #232228,
+      #a63d2a
+    )
+    border-box;
+}
 
-  .writing section .red:before {
-    background: linear-gradient(45deg, #232228, #232228, #232228, #232228, #a63d2a) border-box;
-  }
+.writing section .red .btn-add {
+  background: #a63d2a;
+}
 
-  .writing section .red .btn-add {
-    background: #a63d2a;
-  }
+.writing section .red .progress-bar:after {
+  width: 50%;
+  background: #a63d2a;
+}
 
-  .writing section .red .progress-bar:after {
-    width: 50%;
-    background: #a63d2a;
-  }
+.writing section .red .btn-countdown:hover {
+  background: #a63d2a;
+}
 
-  .writing section .red .btn-countdown:hover {
-    background: #a63d2a;
-  }
-
-
-  /* tenses */
-  @property --gradient-angle {
-    syntax: "<angle>";
-    initial-value: 0turn;
-    inherits: false;
+/* tenses */
+@property --gradient-angle {
+  syntax: '<angle>';
+  initial-value: 0turn;
+  inherits: false;
 }
 
 .tenses .card {
-    animation: 2s gradient-angle infinite linear;
-    border: 2px solid transparent;
-    background-image: linear-gradient(#584827, #2d230f),
-        conic-gradient(from var(--gradient-angle),
-            #584827 0%,
-            #c7a03c 37%,
-            #f9de90 30%,
-            #c7a03c 33%,
-            #584827 40%,
-            #584827 50%,
-            #c7a03c 77%,
-            #f9de90 80%,
-            #c7a03c 83%,
-            #584827 90%);
-    background-clip: padding-box, border-box;
-    background-origin: padding-box, border-box;
+  animation: 2s gradient-angle infinite linear;
+  border: 2px solid transparent;
+  background-image: linear-gradient(#584827, #2d230f),
+    conic-gradient(
+      from var(--gradient-angle),
+      #584827 0%,
+      #c7a03c 37%,
+      #f9de90 30%,
+      #c7a03c 33%,
+      #584827 40%,
+      #584827 50%,
+      #c7a03c 77%,
+      #f9de90 80%,
+      #c7a03c 83%,
+      #584827 90%
+    );
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  cursor: pointer;
 }
 
 @keyframes gradient-angle {
-    to {
-        --gradient-angle: 1turn;
-    }
+  to {
+    --gradient-angle: 1turn;
+  }
 }
 
 html,
 .tenses {
-    background: #141819;
+  background: #141819;
 }
 
 .tenses {
-    font-family: "游ゴシック Medium", YuGothic, YuGothicM,
-        "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-    line-height: 1.6;
-    display: grid;
-    align-content: center;
-    min-height: 100svh;
-    padding: 24px;
-    color: #d5cec0;
-    gap: 24px;
+  font-family: '游ゴシック Medium', YuGothic, YuGothicM,
+    'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  line-height: 1.6;
+  display: grid;
+  align-content: center;
+  min-height: 100svh;
+  padding: 24px;
+  color: #d5cec0;
+  gap: 24px;
+  margin-left: 16rem;
 
-    @media (width < 970px) {
-        align-content: start;
-    }
+  @media (width < 970px) {
+    align-content: start;
+    margin-left: 0;
+    margin-top: 5rem;
+  }
 }
 
 .tenses .container {
-    display: grid;
-    justify-content: center;
-    margin-inline: auto;
-    grid-auto-flow: column;
-    gap: 16px 40px;
+  display: grid;
+  justify-content: center;
+  margin-inline: auto;
+  grid-auto-flow: column;
+  gap: 16px 40px;
 
-    @media (width < 970px) {
-        grid-auto-flow: row;
-    }
+  @media (width < 970px) {
+    grid-auto-flow: row;
+  }
 }
 
 .tenses .card {
-    display: grid;
-    max-width: 240px;
-    padding: 20px;
-    text-decoration: none;
-    color: currentColor;
-    border-radius: 20px;
-    place-content: center;
-    place-items: center;
-    aspect-ratio: 1/1;
-    row-gap: 16px;
+  display: grid;
+  max-width: 240px;
+  padding: 20px;
+  text-decoration: none;
+  color: currentColor;
+  border-radius: 20px;
+  place-content: center;
+  place-items: center;
+  aspect-ratio: 1/1;
+  row-gap: 16px;
 }
 
 .tenses .card h2 {
-    font-family: "Comfortaa", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    font-style: normal;
-    font-optical-sizing: auto;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  font-optical-sizing: auto;
 }
 
 .tenses .card p {
-    font-size: 12px;
+  font-size: 12px;
 }
 /* writing end */
+
+/* thems */
+.thems {
+  background-color: #141819;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+#present,
+#past,
+#future {
+  display: none;
+}
+
+.container1 {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.container1 h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.2em;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.container1 h2 {
+  color: #2980b9;
+  margin: 20px 0;
+  font-size: 1.8em;
+}
+
+.formula-section {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.formula-box {
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 5px solid #2196f3;
+}
+
+.formula-box p {
+  margin: 10px 0;
+  font-family: monospace;
+  font-size: 1.1em;
+  color: #1565c0;
+}
+
+.examples-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.example-item {
+  display: grid;
+  grid-template-columns: 40px 1fr auto 1fr;
+  gap: 15px;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
+.example-item:hover {
+  background-color: #f8f9fa;
+}
+
+.number {
+  color: #2196f3;
+  font-weight: bold;
+}
+
+.english {
+  color: #2c3e50;
+}
+
+.arrow {
+  color: #95a5a6;
+  font-weight: bold;
+}
+
+.uzbek {
+  color: #34495e;
+}
+
+@media (max-width: 768px) {
+  .container1 {
+    padding: 15px;
+  }
+
+  .example-item {
+    grid-template-columns: 30px 1fr;
+    gap: 10px;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .english,
+  .uzbek {
+    grid-column: 2;
+  }
+}
+/* thems end */
+
+/* modal */
+
+/* Modern CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base Styles */
+.modal {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #2d3748;
+  background-color: #141819;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  margin-left: 16rem;
+}
+
+.container3 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Typography */
+.modal h1 {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+.modal h2 {
+  font-size: 1.5rem;
+  color: #2c5282;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+/* Cards */
+.intro-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.verb-section {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+.table-container3 {
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.modal table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.modal th {
+  background: #ebf4ff;
+  color: #2c5282;
+  font-weight: 600;
+  text-align: left;
+  padding: 1rem;
+}
+
+.modal td {
+  padding: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.modal tr:last-child td {
+  border-bottom: none;
+}
+
+.verb {
+  font-weight: 600;
+  color: #4c51bf;
+}
+
+/* Alternating Rows */
+.modal tbody tr:nth-child(even) {
+  background: #f7fafc;
+}
+
+/* Hover Effects */
+.modal tbody tr:hover {
+  background: #edf2f7;
+  transition: background-color 0.2s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .modal {
+    padding: 1rem 0.5rem;
+    margin-left: 0;
+  }
+
+  .modal h1 {
+    font-size: 2rem;
+  }
+
+  .modal h2 {
+    font-size: 1.25rem;
+  }
+
+  .verb-section {
+    padding: 1rem;
+  }
+
+  .modal td,
+  .modal th {
+    padding: 0.75rem;
+  }
+}
+
+/* modal end */
+
+/* conditional */
+
+.conditional {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #2d3748;
+  background-color: #141819;
+  min-height: 100vh;
+  padding: 2rem;
+  margin-left: 16rem;
+}
+
+.container4 {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.conditional h1 {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+.conditional h2 {
+  font-size: 1.5rem;
+  color: #1a365d;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.conditional .card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.intro-list {
+  list-style: none;
+}
+
+.intro-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.conditional .dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #4f46e5;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.conditional .formula {
+  background-color: #eef2ff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.conditional .formula-label {
+  font-weight: 600;
+  color: #1a365d;
+  margin-bottom: 0.25rem;
+}
+
+.conditional .formula-text {
+  color: #4f46e5;
+  font-family: monospace;
+  font-size: 1.1rem;
+}
+
+.conditional .content {
+  margin-top: 1rem;
+}
+
+.conditional .example {
+  border-left: 4px solid #4f46e5;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.conditional .translation {
+  color: #6b7280;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .conditional {
+    margin-left: 0;
+    margin-top: 5rem;
+    padding: 1rem;
+  }
+
+  .conditional h1 {
+    font-size: 2rem;
+  }
+
+  .conditional .card {
+    padding: 1rem;
+  }
+}
+
+/* conditional end */

@@ -31,6 +31,8 @@ Roud::get('/writing/index', 'WritingController/index');
 
 Roud::get('/grammar/index', 'GrammarController/index');
 Roud::get('/grammar/tenses', 'GrammarController/tenses');
+Roud::get('/grammar/modal', 'GrammarController/modal');
+Roud::get('/grammar/conditional', 'GrammarController/conditional');
 
 
 Roud::get('/main/createTable', 'MainController/createTable');
