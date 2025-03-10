@@ -25,4 +25,9 @@ class GrammarController extends Controller
     {
         return $this->view('grammar/conditional');
     }
+
+    public function gerundinfinitiv()
+    {
+        return $this->view('grammar/gerundinfinitiv');
+    }
 }

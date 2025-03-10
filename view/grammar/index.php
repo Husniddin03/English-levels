@@ -8,7 +8,6 @@ $this->view('companent/header');
       <div class="card green">
         <div class="card-body">
           <h3>Zamonlar (Tenses)</h3>
-          <p>barchasi</p>
           <div class="progress">
             <span>Progress</span>
             <div class="progress-bar" style="width: 90%;"></div>
@@ -25,7 +24,6 @@ $this->view('companent/header');
       <div class="card green">
         <div class="card-body">
           <h3>Modal fe’llar (Modal Verbs)</h3>
-          <p>barchasi</p>
           <div class="progress">
             <span>Progress</span>
             <div class="progress-bar" style="width: 90%;"></div>
@@ -42,7 +40,6 @@ $this->view('companent/header');
       <div class="card green">
         <div class="card-body">
           <h3>Shart ergash gaplar (Conditionals)</h3>
-          <p>barchasi</p>
           <div class="progress">
             <span>Progress</span>
             <div class="progress-bar" style="width: 75%;"></div>
@@ -55,11 +52,10 @@ $this->view('companent/header');
       </div>
     </a>
 
-    <a href="#">
+    <a href="/grammar/gerundinfinitiv">
       <div class="card green">
         <div class="card-body">
           <h3>Gerund va Infinitive</h3>
-          <p>barchasi</p>
           <div class="progress">
             <span>Progress</span>
             <div class="progress-bar" style="width: 60%;"></div>
