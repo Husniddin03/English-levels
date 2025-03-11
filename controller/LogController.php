@@ -36,7 +36,7 @@ class LogController extends Controller
 
                 Session::add('user_id', $user);
 
-                return $this->redirect('main/index');
+                return $this->redirect('main/home');
             }
             else{
                 echo "Error";
@@ -89,7 +89,7 @@ class LogController extends Controller
             if ($user && password_verify($password, $user['password'])) {
 
                 Session::add('user_id', $user['id']);
-                return $this->redirect('main/index');
+                return $this->redirect('main/home');
             }
         }
         return $this->view('register/register');

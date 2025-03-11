@@ -775,7 +775,6 @@ html,
 
 /* conditional end */
 
-
 /* gruid */
 :root {
   --primary-color: #4f46e5;
@@ -784,11 +783,13 @@ html,
   --text-secondary: #4b5563;
   --bg-primary: #ffffff;
   --bg-secondary: #f9fafb;
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .greund {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
   line-height: 1.5;
   color: var(--text-primary);
   background-color: #141819;
@@ -1029,19 +1030,128 @@ html,
 
 @media (max-width: 768px) {
   .greund {
-      margin-left: 0;
-      margin-top: 5rem;
+    margin-left: 0;
+    margin-top: 5rem;
   }
   .tabs {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .tab-btn {
-      border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
   }
 
   .summary-grid {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 /* gruid end */
+
+/* speaking */
+
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --background-color: #f3f4f6;
+  --card-background: #ffffff;
+  --text-color: #1f2937;
+  --border-radius: 12px;
+}
+
+.speaking {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: #212121;
+  display: none;
+}
+
+.speaking .container100 {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.speaking h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.speaking .topic-section {
+  margin-bottom: 3rem;
+}
+
+.speaking h2 {
+  color: white;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.speaking .level-card {
+  background-color: var(--card-background);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.speaking h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.speaking .language-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .speaking .language-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.speaking .english,
+.speaking .uzbek {
+  padding: 1rem;
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+}
+
+.speaking h4 {
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.speaking p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+/* Hover effects */
+.speaking .level-card:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .speaking .container100 {
+    margin: 1rem auto;
+  }
+
+  .speaking h1 {
+    font-size: 2rem;
+  }
+
+  .speaking .level-card {
+    padding: 1rem;
+  }
+}
+
+/* speaking end */

@@ -197,3 +197,12 @@ function thems(thema) {
   document.getElementById('future').style.display = 'none';
   document.getElementById(thema).style.display = 'block';
 }
+
+function speaking(speak){
+  document.getElementById('Self-Introduction').style.display="none";
+  document.getElementById('Giving-Opinions').style.display="none";
+  document.getElementById('Describing-Pictures').style.display="none";
+  document.getElementById('Role-Play').style.display="none";
+  document.getElementById('Debates-Discussions').style.display="none";
+  document.getElementById(speak).style.display="block";
+}

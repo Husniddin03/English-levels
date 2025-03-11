@@ -1024,8 +1024,9 @@ a {
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s;
-  width: 7rem;
+  width: 100%;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .discuss-btn:hover {

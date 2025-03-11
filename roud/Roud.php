@@ -17,9 +17,6 @@ Roud::get('/log/logout', 'LogController/logout');
 Roud::get('/log/update', 'LogController/update');
 Roud::get('/log/img', 'LogController/img');
 
-Roud::get('/chat/chat', 'ChatController/chat');
-Roud::get('/chat/send', 'ChatController/send');
-
 Roud::get('/comp/header', 'CompController/header');
 Roud::get('/comp/footer', 'CompController/footer');
 Roud::get('/comp/footernaw', 'CompController/footernaw');

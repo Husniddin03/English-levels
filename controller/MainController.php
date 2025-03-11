@@ -27,6 +27,9 @@ class MainController extends Controller
         }
 
         $level = $this->get('level');
+        if(empty($level)) {
+            return $this->redirect('main/index');
+        }
         $count = Database::count($level);
 
         if ($count == 0) {

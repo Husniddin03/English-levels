@@ -25,7 +25,9 @@ $this->view('companent/header');
           </div>
           <div class="main-content-home">
             <h1>Start learning now.</h1>
-            <a href="/main/index" class="discuss-btn">START</a>
+            <a href="/main/index" class="discuss-btn">Vocabulary</a>
+            <a href="/grammar/index" class="discuss-btn">Grammar</a>
+            <a href="/main/quiztools" class="discuss-btn">Quiz</a>
             <p class="trial-period">A high result in one month.</p>
           </div>
         </div>
