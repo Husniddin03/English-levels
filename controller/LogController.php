@@ -49,7 +49,7 @@ class LogController extends Controller
     public function update()
     {
         if ($this->post()) {
-
+            die('Error');
             $user = Users::find(['id' => $this->user('id')]);
 
             if ($user) {

@@ -32,6 +32,6 @@ Roud::get('/grammar/modal', 'GrammarController/modal');
 Roud::get('/grammar/conditional', 'GrammarController/conditional');
 Roud::get('/grammar/gerundinfinitiv', 'GrammarController/gerundinfinitiv');
 
-
-Roud::get('/main/createTable', 'MainController/createTable');
-Roud::get('/main/createUser', 'MainController/createUser');
+Roud::get('/admin/index', 'AdminController/index');
+Roud::get('/admin/login', 'AdminController/login');
+Roud::get('/admin/logout', 'AdminController/logout');
