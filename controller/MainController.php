@@ -5,7 +5,7 @@ namespace controller;
 use Exception;
 use PDOException;
 use vendor\controller\Controller;
-use Vendor\Model\Database;
+use vendor\model\Database;
 
 class MainController extends Controller
 {
@@ -92,7 +92,7 @@ class MainController extends Controller
 
                     // 2. Faylni o‘qish
                     $filePath = __DIR__ . "/../style/assets/vocabulary/" . $level . ".txt";
-                    if (!file_exists($filePath)) {
+                    if (!file_exists($filePath)) {  
                         throw new Exception("Fayl topilmadi: $filePath");
                     }
 
