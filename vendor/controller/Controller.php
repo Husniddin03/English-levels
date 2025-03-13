@@ -4,16 +4,11 @@ namespace vendor\controller;
 
 session_start();
 
-use Vendor\Model\Database;
+use vendor\model\Database;
 use vendor\session\Session;
 
 class Controller
 {
-    public function __construct(){
-        if ($this->user('id') === null) {
-            $this->redirect('log/signup');
-        }
-    }
     public function view($view, $data = [])
     {
         extract($data);
@@ -50,7 +45,7 @@ class Controller
 
         $pdo = Database::connect();
 
-        $query = "SELECT * FROM User WHERE id = :id";
+        $query = "SELECT * FROM Users WHERE id = :id";
         $stmt = $pdo->prepare($query);
         $stmt->execute(['id' => Session::get('user_id')]);
 

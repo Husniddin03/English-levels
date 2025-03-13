@@ -2,7 +2,7 @@
 
 use vendor\global\Application;
 
-include 'autoload.php';
+include __DIR__.'/autoload.php';
 
 $app = new Application();
 $app->run();

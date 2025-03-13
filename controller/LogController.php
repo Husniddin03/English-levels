@@ -2,7 +2,7 @@
 
 namespace controller;
 
-use model\User;
+use model\Users;
 use vendor\controller\Controller;
 use vendor\session\Session;
 
@@ -20,12 +20,12 @@ class LogController extends Controller
     public function signup()
     {
         if ($this->post()) {
-            User::validate($this->post('name'), 'name');
-            User::validate($this->post('username'), 'username');
-            User::validate($this->post('email'), 'email');
-            User::validate($this->post('password'), 'password');
-            if (User::$validates) {
-                $user = User::create(
+            Users::validate($this->post('name'), 'name');
+            Users::validate($this->post('username'), 'username');
+            Users::validate($this->post('email'), 'email');
+            Users::validate($this->post('password'), 'password');
+            if (Users::$validates) {
+                $user = Users::create(
                     [
                         "name" => $this->post('name'),
                         "username" => $this->post('username'),
@@ -50,14 +50,14 @@ class LogController extends Controller
     {
         if ($this->post()) {
 
-            $user = User::find(['id' => $this->user('id')]);
+            $user = Users::find(['id' => $this->user('id')]);
 
             if ($user) {
                 foreach ($this->post() as $key => $value) {
-                    User::validate($value, $key);
+                    Users::validate($value, $key);
                 }
-                if (User::$validates) {
-                    User::update($this->post());
+                if (Users::$validates) {
+                    Users::update($this->post());
                     return $this->redirect('log/getuser');
                 }
             }
@@ -85,7 +85,7 @@ class LogController extends Controller
         if ($this->post()) {
             $email = $this->post('email');
             $password = $this->post('password');
-            $user = User::find(['email' => $email]);
+            $user = Users::find(['email' => $email]);
             if ($user && password_verify($password, $user['password'])) {
 
                 Session::add('user_id', $user['id']);

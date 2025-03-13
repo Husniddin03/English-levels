@@ -1,18 +1,37 @@
 <?php
+
 namespace vendor\global;
+
 session_start();
 
 class Application
 {
     public function run()
     {
-        $path = Roud::roud($_SERVER['REQUEST_URI']);
-        $url = explode('/', $path);
-        $className = 'controller\\' . $url[0];
-        $functionName = $url[1];
+        try {
+            $path = Roud::roud($_SERVER['REQUEST_URI']);
+            $url = explode('/', $path);
 
-        $controller = new $className();
+            if (count($url) < 2) {
+                throw new \Exception('Invalid URL format');
+            }
 
-        $controller->{$functionName}();
+            $className = 'controller\\' . $url[0];
+            $functionName = $url[1];
+
+            if (!class_exists($className)) {
+                throw new \Exception("Controller class '$className' not found");
+            }
+
+            $controller = new $className();
+
+            if (!method_exists($controller, $functionName)) {
+                throw new \Exception("Method '$functionName' not found in controller '$className'");
+            }
+
+            $controller->{$functionName}();
+        } catch (\Exception $e) {
+            echo 'Error: ' . $e->getMessage();
+        }
     }
 }

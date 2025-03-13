@@ -127,7 +127,7 @@ class MainController extends Controller
     {
         $db = new Database();
         $pdo = $db->connect();
-        $sql = 'CREATE TABLE IF NOT EXISTS User (
+        $sql = 'CREATE TABLE IF NOT EXISTS Users (
             id INT AUTO_INCREMENT PRIMARY KEY,
             name VARCHAR(255) NOT NULL,
             username VARCHAR(255) NOT NULL,

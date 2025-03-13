@@ -35,4 +35,3 @@ Roud::get('/grammar/gerundinfinitiv', 'GrammarController/gerundinfinitiv');
 
 Roud::get('/main/createTable', 'MainController/createTable');
 Roud::get('/main/createUser', 'MainController/createUser');
-Roud::get('/chat/create', 'ChatController/create');

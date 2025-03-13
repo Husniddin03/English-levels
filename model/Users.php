@@ -2,9 +2,9 @@
 
 namespace model;
 
-use Vendor\Model\Database;
+use vendor\model\Database;
 
-class User extends Database
+class Users extends Database
 {
 
     public static $validates = true;
@@ -23,7 +23,7 @@ class User extends Database
     {
         $pdo = self::connect();
 
-        $checkStmt = $pdo->prepare("SELECT COUNT(*) FROM User WHERE email = :email");
+        $checkStmt = $pdo->prepare("SELECT COUNT(*) FROM Users WHERE email = :email");
         $checkStmt->execute(['email' => $data['email']]);
         $emailExists = $checkStmt->fetchColumn();
 
@@ -31,7 +31,7 @@ class User extends Database
             return 0;
         }
 
-        $stmt = $pdo->prepare("INSERT INTO User (name, username, email, password) VALUES (:name, :username, :email, :password)");
+        $stmt = $pdo->prepare("INSERT INTO Users (name, username, email, password) VALUES (:name, :username, :email, :password)");
         $stmt->execute($data);
 
         return $pdo->lastInsertId();
@@ -40,6 +40,6 @@ class User extends Database
 
     public static function find($data)
     {
-        return self::findOne($data, 'User');
+        return self::findOne($data, 'Users');
     }
 }

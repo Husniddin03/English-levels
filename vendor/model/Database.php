@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\Model;
+namespace vendor\model;
 
 use PDO;
 use PDOException;
@@ -102,7 +102,7 @@ class Database extends Validator
         }
         $setClause = rtrim($setClause, ", ");
 
-        $sql = "UPDATE User SET $setClause WHERE id = :id";
+        $sql = "UPDATE Users SET $setClause WHERE id = :id";
         $stmt = $pdo->prepare($sql);
 
         $data['id'] = Session::get('user_id');
