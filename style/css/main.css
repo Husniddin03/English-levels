@@ -40,9 +40,9 @@ body {
 :root {
   --background-color: #1a1a1a;
   --card-background: #242424;
-  --text-color: rgba(255, 255, 255, 0.87);
+  --text-color-p: rgba(255, 255, 255, 0.87);
   --secondary-text: rgba(255, 255, 255, 0.6);
-  --border-color: rgba(255, 255, 255, 0.1);
+  --border-color-p: rgba(255, 255, 255, 0.1);
   --accent-color: #646cff;
   --positive-color: #4caf50;
   --negative-color: #f44336;
@@ -59,7 +59,7 @@ body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: var(--text-color);
+  color: var(--text-color-p);
   background-color: var(--background-color);
   min-height: 100vh;
   display: flex;
@@ -155,7 +155,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color-p);
 }
 
 .profil .info-row:last-child {
@@ -194,7 +194,7 @@ body {
 }
 
 .profil .edit-button:hover {
-  color: var(--text-color);
+  color: var(--text-color-p);
 }
 
 .profil .password-dots {
@@ -1463,7 +1463,7 @@ footer {
   --bg-color: #f9fafb;
   --card-tools-bg: #ffffff;
   --text-color: #1f2937;
-  --border-color: #e5e7eb;
+  -pborder-color: #e5e7eb;
   --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
@@ -1471,7 +1471,7 @@ body.dark {
   --bg-color: #111827;
   --card-tools-bg: #1f2937;
   --text-color: #f9fafb;
-  --border-color: #374151;
+  -pborder-color: #374151;
 }
 
 * {
@@ -1584,7 +1584,7 @@ input:checked+.slider:before {
   margin-top: 1rem;
   padding: 0.5rem;
   border-radius: 0.375rem;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-color-p);
   background-color: var(--card-tools-bg);
   color: var(--text-color);
   font-size: 1rem;
