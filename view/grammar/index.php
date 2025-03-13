@@ -2,7 +2,7 @@
 $this->view('companent/header');
 ?>
 
-<div class="writing">
+<div class="grammar">
   <section>
     <a href="/grammar/tenses">
       <div class="card green">

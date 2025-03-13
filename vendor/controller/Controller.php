@@ -9,6 +9,11 @@ use vendor\session\Session;
 
 class Controller
 {
+    public function __construct(){
+        if ($this->user('id') === null) {
+            $this->redirect('log/signup');
+        }
+    }
     public function view($view, $data = [])
     {
         extract($data);

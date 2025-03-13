@@ -68,7 +68,7 @@ body {
   padding: 20px;
 }
 
-.input-value {
+.profil .input-value {
   width: 100%;
   font-size: 16px;
   font-weight: 400;
@@ -107,7 +107,7 @@ body {
   border: 2px solid var(--accent-color);
 }
 
-.edit-icon {
+.profil .edit-icon {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -144,13 +144,13 @@ body {
   padding: var(--section-padding);
 }
 
-.section-description {
+.profil .section-description {
   color: var(--secondary-text);
   font-size: 14px;
   margin-bottom: 20px;
 }
 
-.info-row {
+.profil .info-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -158,25 +158,25 @@ body {
   border-bottom: 1px solid var(--border-color);
 }
 
-.info-row:last-child {
+.profil .info-row:last-child {
   border-bottom: none;
 }
 
-.info-label {
+.profil .info-label {
   color: var(--secondary-text);
   width: 30%;
 }
 
-.info-value {
+.profil .info-value {
   flex-grow: 1;
 }
 
-.profil-form {
+.profil .profil-form {
   width: 100%;
   display: none;
 }
 
-.verified-badge {
+.profil .verified-badge {
   background: none;
   border: none;
   cursor: pointer;
@@ -187,34 +187,34 @@ body {
   justify-content: center;
 }
 
-.edit-button {
+.profil .edit-button {
   color: var(--secondary-text);
   cursor: pointer;
   padding: 5px;
 }
 
-.edit-button:hover {
+.profil .edit-button:hover {
   color: var(--text-color);
 }
 
-.password-dots {
+.profil .password-dots {
   flex-grow: 1;
   letter-spacing: 2px;
 }
 
-.stats-container {
+.profil .stats-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
 }
 
-.stat-box {
+.profil .stat-box {
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
   padding: 20px;
 }
 
-.stat-icon {
+.profil .stat-icon {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -223,55 +223,55 @@ body {
   font-size: 14px;
 }
 
-.stat-value {
+.profil .stat-value {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-.stat-details {
+.profil .stat-details {
   font-size: 14px;
   color: var(--secondary-text);
 }
 
-.positive {
+.profil .positive {
   color: var(--positive-color);
 }
 
-.negative {
+.profil .negative {
   color: var(--negative-color);
 }
 
-.buy-stat,
-.sell-stat,
-.positive-stat,
-.negative-stat,
-.completion-stat {
+.profil .buy-stat,
+.profil .sell-stat,
+.profil .positive-stat,
+.profil .negative-stat,
+.profil .completion-stat {
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
 }
 
 @media (max-width: 600px) {
-  .stats-container {
+  .profil .stats-container {
     grid-template-columns: 1fr;
   }
 
   .profil {
-    margin-top: 70px;
+    margin-top: 5rem;
   }
 
-  .info-row {
+  .profil .info-row {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
   }
 
-  .info-label {
+  .profil .info-label {
     width: 100%;
   }
 
-  .edit-button {
+  .profil .edit-button {
     align-self: flex-end;
   }
 }
@@ -528,7 +528,7 @@ a {
   margin-bottom: 1rem;
 }
 
-.form-group input {
+.auth-form-container .form-group input {
   width: 100%;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
