@@ -2,7 +2,7 @@
 
 use vendor\global\Roud;
 
-Roud::get('/', 'MainController/index');
+Roud::get('/', 'MainController/home');
 Roud::get('/main/index', 'MainController/index');
 Roud::get('/main/vocabulary', 'MainController/vocabulary');
 Roud::get('/main/home', 'MainController/home');

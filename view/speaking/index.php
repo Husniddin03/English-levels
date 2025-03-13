@@ -180,10 +180,314 @@ $this->view('companent/header');
       </div>
     </div>
   </div>
-  <div class="speaking" id="Giving-Opinions"></div>
-  <div class="speaking" id="Describing-Pictures"></div>
-  <div class="speaking" id="Role-Play"></div>
-  <div class="speaking" id="Debates-Discussions"></div>
+  <div class="speaking" id="Giving-Opinions">
+    <div class="container100">
+      <h1>CEFR Speaking: Giving Opinions Guide (CEFR Speaking: Fikr bildirish bo'yicha qo'llanma)</h1>
+
+      <div class="topic-section">
+        <h2>1. Expressing Opinions (Fikr bildirish)</h2>
+
+        <div class="level-card">
+          <h3>A1/A2 (Beginner)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"I think learning English is very important. It helps me communicate with people from different countries."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Menimcha, ingliz tilini o'rganish juda muhim. Bu menga turli mamlakatlardan odamlar bilan muloqot qilishda yordam beradi."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="level-card">
+          <h3>B1/B2 (Intermediate)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"In my opinion, technology has greatly improved our lives. It has made communication easier and more efficient."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Mening fikrimcha, texnologiya hayotimizni ancha yaxshiladi. Bu muloqotni oson va samarali qildi."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="topic-section">
+        <h2>2. Agreeing and Disagreeing (Rozilik bildirish va rad etish)</h2>
+
+        <div class="level-card">
+          <h3>A1/A2 (Beginner)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"I agree that exercise is important for health. It keeps us fit and active."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Men sog'liq uchun mashqlar muhim ekanligiga qo'shilaman. Bu bizni sog'lom va faol tutadi."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="level-card">
+          <h3>B1/B2 (Intermediate)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"I disagree with the idea that money can buy happiness. True happiness comes from meaningful relationships and personal fulfillment."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Pul baxtni sotib olishi mumkin degan fikrga qo'shilmayman. Haqiqiy baxt mazmunli munosabatlar va shaxsiy qoniqishdan kelib chiqadi."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="speaking" id="Describing-Pictures">
+    <div class="container100">
+      <h1>CEFR Speaking: Describing Pictures Guide (CEFR Speaking: Rasmlarni tasvirlash bo'yicha qo'llanma)</h1>
+
+      <div class="topic-section">
+        <h2>1. Location (Joylashuv)</h2>
+
+        <div class="level-card">
+          <h3>A1/A2 (Beginner)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"In the picture, there is a park with many trees and a playground. There are children playing on the swings and slides."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Rasmda ko'plab daraxtlar va bolalar maydonchasi bo'lgan park bor. Bolalar arg'imchoqlar va sirpanishlarda o'ynashmoqda."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="level-card">
+          <h3>B1/B2 (Intermediate)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"The picture shows a busy city street with tall buildings and many cars. There are people walking on the sidewalks and some are waiting at the bus stop."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Rasmda baland binolar va ko'plab mashinalar bo'lgan gavjum shahar ko'chasi ko'rsatilgan. Odamlar trotuarlarda yurishmoqda va ba'zilari avtobus bekatida kutishmoqda."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="topic-section">
+        <h2>2. Actions (Harakatlar)</h2>
+
+        <div class="level-card">
+          <h3>A1/A2 (Beginner)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"In the picture, a boy is riding a bicycle and a girl is flying a kite. They are having fun in the park."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Rasmda bir bola velosipedda yurmoqda va bir qiz varrak uchirmoqda. Ular parkda zavqlanishmoqda."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="level-card">
+          <h3>B1/B2 (Intermediate)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"The picture depicts a group of people having a picnic in the park. Some are sitting on a blanket and eating, while others are playing frisbee."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Rasmda parkda piknik qilayotgan odamlar guruhi tasvirlangan. Ba'zilari adyolda o'tirib ovqatlanmoqda, boshqalari esa frizbi o'ynamoqda."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="topic-section">
+        <h2>3. People (Odamlar)</h2>
+
+        <div class="level-card">
+          <h3>A1/A2 (Beginner)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"In the picture, there are two children and their parents. The children are playing with a ball, and the parents are watching them."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Rasmda ikki bola va ularning ota-onasi bor. Bolalar to'p bilan o'ynamoqda, ota-onalari esa ularni kuzatmoqda."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="level-card">
+          <h3>B1/B2 (Intermediate)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"The picture shows a group of friends at a party. They are smiling and talking to each other. Some are holding drinks, and others are dancing."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>Rasmda bir guruh doʻstlar bazmda ekanligi tasvirlangan. Ular tabassum qilib, bir-birlari bilan suhbatlashmoqdalar. Ba'zilari ichimlik ushlab turibdi, boshqalari esa raqsga tushmoqda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="speaking" id="Role-Play">
+    <div class="container100">
+      <h1>CEFR Speaking: Role Play Guide (CEFR Speaking: Rolli o‘yinlar bo‘yicha qo‘llanma)</h1>
+
+      <div class="topic-section">
+        <h2>1. Making a Reservation (Buyurtma qilish)</h2>
+
+        <div class="level-card">
+          <h3>A1/A2 (Beginner)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"I would like to make a reservation for two people at 7 PM."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Men soat 7 da ikki kishi uchun buyurtma bermoqchiman."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="level-card">
+          <h3>B1/B2 (Intermediate)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"I would like to book a table for two at 7 PM. Could you please confirm the reservation?"</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Men soat 7 da ikki kishi uchun stol buyurtma qilmoqchiman. Iltimos, buyurtmani tasdiqlaysizmi?"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="topic-section">
+        <h2>2. Asking for Directions (Yo'nalish so'rash)</h2>
+
+        <div class="level-card">
+          <h3>A1/A2 (Beginner)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"Excuse me, how do I get to the nearest bus stop?"</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Kechirasiz, eng yaqin avtobus bekatiga qanday boraman?"</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="level-card">
+          <h3>B1/B2 (Intermediate)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"Could you please tell me how to get to the nearest bus stop? I am new to this area."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Iltimos, eng yaqin avtobus bekatiga qanday borishni ayta olasizmi? Men bu hududda yangiman."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="speaking" id="Debates-Discussions">
+    <div class="container100">
+      <h1>CEFR Speaking: Debates & Discussions Guide (CEFR Speaking: Munozaralar bo'yicha qo'llanma)</h1>
+
+      <div class="topic-section">
+        <h2>1. Agreeing and Disagreeing (Rozilik bildirish va rad etish)</h2>
+
+        <div class="level-card">
+          <h3>A1/A2 (Beginner)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"I agree that exercise is important for health. It keeps us fit and active."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Men sog'liq uchun mashqlar muhim ekanligiga qo'shilaman. Bu bizni sog'lom va faol tutadi."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="level-card">
+          <h3>B1/B2 (Intermediate)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"I disagree with the idea that money can buy happiness. True happiness comes from meaningful relationships and personal fulfillment."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Pul baxtni sotib olishi mumkin degan fikrga qo'shilmayman. Haqiqiy baxt mazmunli munosabatlar va shaxsiy qoniqishdan kelib chiqadi."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="topic-section">
+        <h2>2. Giving Reasons (Sabablarni keltirish)</h2>
+
+        <div class="level-card">
+          <h3>A1/A2 (Beginner)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"I think learning English is important because it helps me communicate with people from different countries."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Menimcha, ingliz tilini o'rganish muhim, chunki bu menga turli mamlakatlardan odamlar bilan muloqot qilishda yordam beradi."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="level-card">
+          <h3>B1/B2 (Intermediate)</h3>
+          <div class="language-content">
+            <div class="english">
+              <h4>English:</h4>
+              <p>"In my opinion, technology has greatly improved our lives because it has made communication easier and more efficient."</p>
+            </div>
+            <div class="uzbek">
+              <h4>O'zbekcha:</h4>
+              <p>"Mening fikrimcha, texnologiya hayotimizni ancha yaxshiladi, chunki bu muloqotni oson va samarali qildi."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </main>
 
