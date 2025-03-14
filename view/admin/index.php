@@ -34,7 +34,7 @@
             <!-- Top Bar -->
             <div class="top-bar">
                 <button id="menuButton" class="menu-button">☰</button>
-                <span class="user-info"><?=$this->user('name')?></span>
+                <span class="user-info"><?= $this->user('name') ?></span>
             </div>
 
             <!-- Content Area -->
@@ -46,6 +46,43 @@
 
                 <!-- Table -->
                 <div class="table-container">
+                    <?php if ($this->get('id')): ?>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <?php
+                                    foreach ($data[$this->get('id')-1] as $key => $value) {
+                                        echo "<th>$key</th>";
+                                    }
+                                    ?>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody">
+                                <tr>
+                                    <form action="/admin/update" method="post">
+                                        <?php
+                                        foreach ($data[$this->get('id')-1] as $key => $value) {
+                                            if ($key == 'id' || $key == 'created_at') {
+                                                echo "<td>auto</td>";
+                                                continue;
+                                            } else if ($key == 'password') {
+                                                echo "<td><input type='password' value=''></td>";
+                                                continue;
+                                            }
+                                            echo "<td><input type='text' value='$value'></td>";
+                                        }
+                                        ?>
+                                        <td>
+                                            <div class="action-buttons">
+                                                <button type="submit" class="save-button" onclick="handleSaveEdit()">Save</button>
+                                                <button class="cancel-button" onclick="handleCancel()">Cancel</button>
+                                            </div>
+                                        </td>
+                                    </form>
+                                </tr>
+                            </tbody>
+                        </table>
+                    <?php endif; ?>
                     <table>
                         <thead>
                             <tr>
@@ -56,17 +93,34 @@
                                 ?>
                             </tr>
                         </thead>
-                        <tbody id="tableBody"></tbody>
+                        <tbody id="tableBody">
+                            <tr>
+                                <?php
+                                foreach ($data as $value) {
+                                    foreach ($value as $key => $val) {
+                                        if ($key == 'password') {
+                                            echo "<td>.........</td>";
+                                            continue;
+                                        }
+                                        echo "<td>$val</td>";
+                                    }
+                                ?>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <a class="edit-button" href="?id=<?= $value['id'] ?>">Edit</a>
+                                            <button class="delete-button" onclick="handleDelete()">Delete</button>
+                                        </div>
+                                    </td>
+                            </tr>
+                        <?php } ?>
+                        </tbody>
                     </table>
                 </div>
             </div>
         </div>
-        
+
     </div>
-    <script>
-        let items = <?php echo json_encode($data); ?>;
-    </script>
-    <script src="/style/js/admin.js"></script>
+    <!-- <script src="/style/js/admin.js"></script> -->
 </body>
 
 </html>

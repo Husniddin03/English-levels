@@ -35,3 +35,5 @@ Roud::get('/grammar/gerundinfinitiv', 'GrammarController/gerundinfinitiv');
 Roud::get('/admin/index', 'AdminController/index');
 Roud::get('/admin/login', 'AdminController/login');
 Roud::get('/admin/logout', 'AdminController/logout');
+Roud::get('/admin/update', 'AdminController/update');
+Roud::get('/admin/delete', 'AdminController/delete');
